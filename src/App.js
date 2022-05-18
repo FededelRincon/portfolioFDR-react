@@ -24,21 +24,27 @@ function App() {
         <div className="App">
             {/* Navbar */}
             <Navbar isScrolling={scrollHeight} />
+            {/* hay que hacer el linkedin !!!!!!!!!!!!!! */}
 
-            {/* Portada: puede ser el video o  */}
+            {/* Portada: puede ser el video */}
             <Cover />
+            {/* quizas ver de cambiar el video */}
 
             {/* Sobre mi / estudios */}
             <About />
+            {/* necesita un lavado de cara, sobretodo la parte del readme */}
 
             {/* Carrousel */}
             <Slider />
+            {/* creo que done */}
 
             {/* Tecnologias */}
             <Info />
+            {/* Incompleto */}
 
             {/* Contacto */}
             <Footer />
+            {/* creo q esta */}
         </div>
     );
 }

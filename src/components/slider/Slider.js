@@ -18,7 +18,7 @@ const Slider = () => {
                 slidesPerPage={3}
                 infinite
                 animationSpeed={200}
-                centered
+                // centered
                 offset={40}
                 itemWidth={400}
                 slides={Slides}

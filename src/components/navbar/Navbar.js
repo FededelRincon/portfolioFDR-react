@@ -19,13 +19,13 @@ const Navbar = ({ isScrolling }) => {
                     </a>
 
                     <a href="https://www.instagram.com/fede_dr21/" target="_blank" rel="noreferrer">
-                        <i class="fab fa-instagram instagram"></i>
+                        <i className="fab fa-instagram instagram"></i>
                     </a>
                     <a href="https://www.facebook.com/federico.delrincon/" target="_blank" rel="noreferrer">
                         <i className="fab fa-facebook facebook"></i>
                     </a>
                     <a href="https://github.com/FededelRincon" target="_blank" rel="noreferrer">
-                        <i class="fab fa-github github"></i>
+                        <i className="fab fa-github github"></i>
                     </a>
                 </div>
             </div>
