@@ -1,13 +1,17 @@
+/* oscuro #202021;
+claro #949495; */
+
+
 .carousel-container {
   display: flex;
   vertical-align: center;
   align-items: center;
-  background-color: black;
+  background-color: #202021;
   padding: 30px 0 30px 0;
 }
 
 .carousel-title {
-  color: white;
+  color: #949495;
   width: 40%;
   text-align: center;
   font-size: 30px;
@@ -33,7 +37,7 @@
 }
 
 .slide-desc {
-  background-color: black;
+  background-color: #202021;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -44,28 +48,28 @@
 }
 
 .slide-desc > span {
-  color: white;
+  color: #949495;
   display: block;
   font-size: 22px;
   padding: 20px 0 20px 10px;
 }
 
 .BrainhubCarousel__arrows {
-  background-color: white;
+  background-color: #949495;
   border-radius: 50%;
   margin: 20px;
 }
 
 .BrainhubCarousel__arrows > span {
-  border-color: black;
+  border-color: #202021;
 }
 
 .BrainhubCarousel__arrows:hover {
-  background-color: white !important;
+  background-color: #949495 !important;
 }
 
 .BrainhubCarousel__arrows:hover > span {
-  border-color: black !important;
+  border-color: #202021 !important;
 }
 
 @media only screen and (max-width: 960px) {
@@ -76,7 +80,7 @@
   .carousel-title {
     width: 100%;
     text-align: center;
-    padding: 50px 0 50px 0;
+    padding: 150px 0 50px 0;
   }
 
   .slide-container {

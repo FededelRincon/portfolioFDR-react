@@ -1,7 +1,9 @@
 import React from "react";
-import Carousel from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
+
+import Carousel from "@brainhubeu/react-carousel";
 import Slides from "./Slides";
+
 import "./Slider.css";
 
 const Slider = () => {
@@ -16,7 +18,7 @@ const Slider = () => {
                 slidesPerPage={3}
                 infinite
                 animationSpeed={200}
-                // centered
+                centered
                 offset={40}
                 itemWidth={400}
                 slides={Slides}
