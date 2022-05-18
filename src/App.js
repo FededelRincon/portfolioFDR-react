@@ -30,17 +30,17 @@ function App() {
             <Cover />
             {/* quizas ver de cambiar el video */}
 
-            {/* Sobre mi / estudios */}
-            <About />
-            {/* necesita un lavado de cara, sobretodo la parte del readme */}
-
-            {/* Carrousel */}
-            <Slider />
-            {/* creo que done */}
-
             {/* Tecnologias */}
             <Info />
             {/* Incompleto */}
+
+            {/* Carrousel */}
+            <Slider />
+            {/* en pantalla chica, achicar el my projects */}
+
+            {/* Sobre mi / estudios */}
+            <About />
+            {/* necesita un lavado de cara, sobretodo la parte del readme */}
 
             {/* Contacto */}
             <Footer />

@@ -1,9 +1,13 @@
+/* oscuro: #202021; */
+/* claro: #949495; */
+
 .about-container {
   display: flex;
   color: #202021;
   background-color: #949495;
   height: 70vh;
   padding: 100px 0 100px 0;
+  margin-bottom: 100vh;
 }
 
 .about-desc {

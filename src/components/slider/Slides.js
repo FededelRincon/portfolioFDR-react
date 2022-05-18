@@ -18,17 +18,17 @@ const slidesInfo = [
     },
     {
         src:
-        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652886856/Portfolio/TesloStore2_ssfdcn.jpg',
-        alt: 'TesloShop',
-        desc: 'TesloShop - Ecommerce',
-        url: 'https://teslo-shop-next-js.vercel.app/',
-    },
-    {
-        src:
         'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652887675/Portfolio/buscar_imagenes_small2_zcqk3w.jpg',
         alt: 'BuscadorImagenes',
         desc: 'Buscador imagenes',
         url: 'https://pixabay-react-fdr.netlify.app/',
+    },
+    {
+        src:
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652885878/Portfolio/BienesRaices_small_dddtyf.jpg',
+        alt: 'BienesRaices',
+        desc: 'Bienes Raices - LandingPage',
+        url: 'https://bienesraices-gatsby-fdr.netlify.app/',
     },
     {
         src:
@@ -39,10 +39,10 @@ const slidesInfo = [
     },
     {
         src:
-        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652885878/Portfolio/BienesRaices_small_dddtyf.jpg',
-        alt: 'BienesRaices',
-        desc: 'Bienes Raices - LandingPage',
-        url: 'https://bienesraices-gatsby-fdr.netlify.app/',
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652886856/Portfolio/TesloStore2_ssfdcn.jpg',
+        alt: 'TesloShop',
+        desc: 'TesloShop - Ecommerce',
+        url: 'https://teslo-shop-next-js.vercel.app/',
     },
 ];
 
