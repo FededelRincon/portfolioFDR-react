@@ -13,16 +13,14 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  background: rgb(32,32,33);
-  background: linear-gradient(0deg, rgba(32,32,33,1) 12%, rgba(148,148,149,1) 49%, rgba(32,32,33,1) 90%);
+  background-color: #410b0b;
   padding: 0 50px;
 }
 
 .icon-container {
-  /* background-color: crimson; */
   padding: 0 5px 0 5px;
-  height: 90px;
-  width: 90px;
+  height: 80px;
+  width: 80px;
 }
 
 @media only screen and (max-width: 960px) {

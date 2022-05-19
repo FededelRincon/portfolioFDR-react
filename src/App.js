@@ -32,15 +32,15 @@ function App() {
 
             {/* Tecnologias */}
             <Info />
-            {/* Incompleto */}
+            {/* quizas ver el color rojo por otro....  */}
 
             {/* Carrousel */}
             <Slider />
-            {/* en pantalla chica, achicar el my projects */}
+            {/* creo q OK */}
 
             {/* Sobre mi / estudios */}
             <About />
-            {/* necesita un lavado de cara, sobretodo la parte del readme */}
+            {/* necesita un lavado de cara, sobretodo la parte del readme x warnings*/}
 
             {/* Contacto */}
             <Footer />

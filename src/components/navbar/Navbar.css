@@ -41,7 +41,8 @@
 .facebook,
 .instagram,
 .github {
-  color: white;
+  color: #949495;
+  /* color: white; */
   font-size: 35px;
   margin: 0 auto;
   padding-bottom: 10px;
@@ -53,7 +54,8 @@
 .facebook:hover,
 .instagram:hover,
 .github:hover {
-  border-color: white;
+  /* border-color: white; */
+  border-color: #949495;
   transition: all 0.3s ease-out;
 }
 
