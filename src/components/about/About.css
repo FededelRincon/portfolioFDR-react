@@ -1,10 +1,11 @@
 /* oscuro: #202021; */
 /* claro: #949495; */
+/* rojo: #410b0b */
 
 .about-container {
   display: flex;
-  color: #202021;
-  background-color: #949495;
+  color: #949495;
+  background-color: #410b0b;
   height: 70vh;
   padding: 100px 0 100px 0;
   margin-bottom: 100vh;
@@ -28,16 +29,27 @@
 }
 
 .about-link {
+  /* color: darkblue; */
+  color: floralwhite;
+}
+
+.about-link:hover {
   color: darkblue;
+  /* color: floralwhite; */
 }
 
 .about-img {
-  /* width: 45%; */
-  height: 177%;
+  height: 200px;
   display: flex;
-  align-self: center;
-  overflow: hidden;
-  background-color: aqua;
+  align-items: center;
+  margin: 25px auto;
+}
+
+.img-circular {
+  width:300px;
+  height:300px;
+  border-radius:160px;
+  border:5px solid #949495;
 }
 
 @media only screen and (max-width: 960px) {
@@ -63,7 +75,15 @@
     margin-bottom: 50px;
   }
 
-  .about-img > img {
-    width: 100%;
+  .img-circular {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:5px solid #949495;
+    margin: 0 auto 25px auto;
   }
+
+  /* .about-img > img {
+    width: 100%;
+  } */
 }
