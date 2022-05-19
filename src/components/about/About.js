@@ -66,10 +66,10 @@ const About = () => {
                         {/* haceme descargar el pdf */}
 
                     <input 
+                        onClick={ () => window.scroll({ top: 5000, behavior: 'smooth' }) }
                         className="button" 
                         type="submit" 
                         value="Contact Me" />
-                        {/* redireccioname al footer */}
                 </div>
 
             </div>
