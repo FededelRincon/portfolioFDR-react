@@ -18,7 +18,12 @@ const About = () => {
                             {/* about se va a la derecha */}
                             <h3>{`< About Me >`}</h3>
                             <p>
-                                I am self-taught, but I feel more comfortable in the front-end than the back-end, but I think I can contribute to both sides of the development process because I have some knowledge in both sides and i have a lot of desire to continue learning. I create innovative solutions with the goal of delivering seamless user experiences while maintaining high functionality and paying attention to passionate detail. I love organization and structure and therefore. I place a great emphasis on making code clean, elegant and easy to read.
+                                I was a famaf student for 4 years, but i feel more a selt-taught developer, eager to keep on learning. 
+                                I feel more comfortable in the front-end than the back-end, but I think I can contribute to both sides 
+                                of the development process because I have some knowledge in both sides and i have a lot of desire to continue learning. 
+                                I try to create innovative solutions with the goal of delivering seamless user experiences while maintaining high 
+                                functionality and paying attention to passionate detail. 
+                                I love organization and structure and therefore I place a great emphasis on making code clean, elegant and easy to read.
                                 <span 
                                     className="about-link"
                                     onClick={ () => handleReadMore(false) } >
@@ -30,14 +35,13 @@ const About = () => {
                         <>
                             <h3>{`< About Me >`}</h3>
                             <p>
-                                I was born and raised in Argentina. I was always a fan of technology, so much so that in 2009 I started my studies at Famaf where I studied for almost 4 years but for economic reasons and day to day I had to leave. Life led me to study the real estate broker career remotely, but even though I got to graduate and work on it for a while, I knew from the beginning that it is not something I could see myself working on.
-
-                                So when the pandemic first hit and life slowed down I stumbled upon some online courses and instantly decided I wanted to learn programming but this time looking for a real working opportunity so I started with courses. . The first course was python, and then I went through HTML, CSS, JS to get to more challenging things like react, Next, Express, Mongo, among others.
-                                I don't think I have great hobbies to share, although possibly learning things self-taught could be said to be my thing, to name a few things: playing the guitar, programming, driving, learning English, among others.
+                                I was born and raised in Argentina. After i left famaf, the life led me to study the real estate broker career, but even though I got to graduate and work on it for a while, I knew from the beginning that it is not something I could see myself working on.
+                                So when the pandemic strike us, my life slowed down and I stumbled upon some online courses and instantly decided I wanted to learn programming, but this time looking trying to get a real working opportunity. I took courses of many things like Python, HTML, CSS, JS, TS, to get to more challenging things like react, Next, Express, Mongo, among others.
+                                I don't have any crazy passions or super-cool hobbies, but what makes me happiest are playing the guitar, a good book, a slice of pizza, travelling, and learn a new things.
                                 <span 
                                     className="about-link"
                                     onClick={ () => handleReadMore(true) } >
-                                    {` Go back`}
+                                    {` Go back...`}
                                 </span>
                             </p>
                         </>
@@ -52,8 +56,22 @@ const About = () => {
                     alt="about"
                 />
 
-                {/* <p>resume</p>
-                <p>contact me   (y mandar para footer)</p> */}
+                <p><i className="location fas fa-map-marker-alt"></i> Cordoba, Argentina</p>
+
+                <div >
+                    <input 
+                        className="button" 
+                        type="submit" 
+                        value="Download resume" />
+                        {/* haceme descargar el pdf */}
+
+                    <input 
+                        className="button" 
+                        type="submit" 
+                        value="Contact Me" />
+                        {/* redireccioname al footer */}
+                </div>
+
             </div>
         </div>
     );
