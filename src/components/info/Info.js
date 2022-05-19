@@ -37,7 +37,7 @@ const Info = () => {
 
                 {/* react native */}
                 <div className="icon-container">
-                    <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf167f0281fda839a5433f2040b349/ecfc9/img/header_logo.svg" alt="React" /></a>
+                    <a href="https://reactnative.dev/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" alt="React" /></a>
                 </div>
 
                 {/* taildwindcss */}

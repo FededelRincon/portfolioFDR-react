@@ -14,7 +14,7 @@ const Navbar = ({ isScrolling }) => {
                 </div>
 
                 <div className="navbar-right">
-                    <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/federico-del-rincon/" target="_blank" rel="noreferrer">
                         <i className="fab fa-linkedin linkedin"></i>
                     </a>
 

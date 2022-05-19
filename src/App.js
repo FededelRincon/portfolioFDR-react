@@ -22,29 +22,19 @@ function App() {
 
     return (
         <div className="App">
-            {/* Navbar */}
             <Navbar isScrolling={scrollHeight} />
-            {/* hay que hacer el linkedin !!!!!!!!!!!!!! */}
+            {/* hay que hacer el linkedin y conectarlo !!!!!!!!!!!!!! */}
 
-            {/* Portada: puede ser el video */}
             <Cover />
-            {/* quizas ver de cambiar el video o agregar un 2do para moviles*/}
 
-            {/* Tecnologias */}
             <Info />
-            {/* creo q OK */}
 
-            {/* Carrousel */}
             <Slider />
-            {/* creo q OK */}
 
-            {/* Sobre mi / estudios */}
             <About />
-            {/* necesita un lavado de cara, sobretodo traduccion*/}
+            {/* controlar traduccion*/}
 
-            {/* Contacto */}
             <Footer />
-            {/* creo q esta */}
         </div>
     );
 }

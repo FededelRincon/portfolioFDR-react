@@ -62,8 +62,9 @@ const About = () => {
                     <input 
                         className="button" 
                         type="submit" 
-                        value="Download resume" />
-                        {/* haceme descargar el pdf */}
+                        value="Download resume" 
+                        onClick={ () => window.open('./prueba.pdf') }
+                        target="_blank" />
 
                     <input 
                         onClick={ () => window.scroll({ top: 5000, behavior: 'smooth' }) }
@@ -73,6 +74,8 @@ const About = () => {
                 </div>
 
             </div>
+
+
         </div>
     );
 };
