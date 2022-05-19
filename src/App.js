@@ -28,11 +28,11 @@ function App() {
 
             {/* Portada: puede ser el video */}
             <Cover />
-            {/* quizas ver de cambiar el video */}
+            {/* quizas ver de cambiar el video o agregar un 2do para moviles*/}
 
             {/* Tecnologias */}
             <Info />
-            {/* quizas ver el color rojo por otro....  */}
+            {/* creo q OK */}
 
             {/* Carrousel */}
             <Slider />
@@ -40,7 +40,7 @@ function App() {
 
             {/* Sobre mi / estudios */}
             <About />
-            {/* necesita un lavado de cara, sobretodo la parte del readme x warnings*/}
+            {/* necesita un lavado de cara, sobretodo traduccion*/}
 
             {/* Contacto */}
             <Footer />

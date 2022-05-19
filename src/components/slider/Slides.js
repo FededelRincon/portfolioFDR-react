@@ -11,6 +11,13 @@ const slidesInfo = [
     },
     {
         src:
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652886856/Portfolio/TesloStore2_ssfdcn.jpg',
+        alt: 'TesloShop',
+        desc: 'TesloShop - Ecommerce',
+        url: 'https://teslo-shop-next-js.vercel.app/',
+    },
+    {
+        src:
         'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652887869/Portfolio/buscadorPeliculas_small2_kixpjz.jpg',
         alt: 'BuscadorPeliculas',
         desc: 'Buscador peliculas',
@@ -33,16 +40,9 @@ const slidesInfo = [
     {
         src:
         'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652887061/Portfolio/citas_Small_ii3zq5.jpg',
-        alt: 'Citas',
-        desc: 'Citas - TodoApp',
+        alt: 'MiCachorrito',
+        desc: 'Mi cachorrito - Todo App',
         url: 'https://citasmascotas-react-fdr.netlify.app/',
-    },
-    {
-        src:
-        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652886856/Portfolio/TesloStore2_ssfdcn.jpg',
-        alt: 'TesloShop',
-        desc: 'TesloShop - Ecommerce',
-        url: 'https://teslo-shop-next-js.vercel.app/',
     },
 ];
 

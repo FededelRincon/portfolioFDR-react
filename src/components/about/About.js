@@ -15,6 +15,7 @@ const About = () => {
                 {
                     readMore ? (
                         <>
+                            {/* about se va a la derecha */}
                             <h3>{`< About Me >`}</h3>
                             <p>
                                 I am self-taught, but I feel more comfortable in the front-end than the back-end, but I think I can contribute to both sides of the development process because I have some knowledge in both sides and i have a lot of desire to continue learning. I create innovative solutions with the goal of delivering seamless user experiences while maintaining high functionality and paying attention to passionate detail. I love organization and structure and therefore. I place a great emphasis on making code clean, elegant and easy to read.
@@ -50,6 +51,9 @@ const About = () => {
                     src="https://res.cloudinary.com/dqh7edrn7/image/upload/v1652927127/Portfolio/Yo_BN_omkcml.jpg"
                     alt="about"
                 />
+
+                {/* <p>resume</p>
+                <p>contact me   (y mandar para footer)</p> */}
             </div>
         </div>
     );
