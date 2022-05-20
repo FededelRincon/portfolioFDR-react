@@ -30,12 +30,14 @@
 
 .about-link {
   /* color: darkblue; */
-  color: floralwhite;
+  /* color: floralwhite; */
+  color: cadetblue;
 }
 
 .about-link:hover {
-  color: darkblue;
-  /* color: floralwhite; */
+  /* color: darkblue; */
+  color: floralwhite;
+  /* color: cadetblue; */
 }
 
 .about-img {
