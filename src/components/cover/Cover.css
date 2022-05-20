@@ -1,12 +1,20 @@
+/* oscuro: #202021; */
+/* claro: #949495; */
+/* red: 410b0b */
+
 .cover-container {
   height: 100vh;
   width: 100%;
   object-fit: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
   justify-content: center;
   align-items: center;
+
+  /* para cuando carga el video */
+  /* background-color: #202021; */
+  /* opacity: 0.99; */
 }
 
 .video {
@@ -17,8 +25,26 @@
   z-index: -1;
 }
 
+.job {
+  display: block;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 20ch;
+
+  animation: typing 2s steps(20), 
+    blink .6s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+}
+
+@keyframes blink {
+  50% { border-color: transparent}
+}
+
 .cover-container > h1 {
-  /* color: #949495; */
   color: white;
   font-size: 100px;
 }

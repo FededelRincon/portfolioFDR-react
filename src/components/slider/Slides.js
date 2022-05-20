@@ -4,14 +4,6 @@ import './Slider.css';
 const slidesInfo = [
     {
         src:
-        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652885878/Portfolio/musicHouse_small_a9rniw.jpg',
-        alt: 'MusicHouse',
-        desc: 'MusicHouse - Ecommerce',
-        url: 'https://music-house-next.vercel.app/',
-        tecnologies: 'Next - Strapi - Mongo',
-    },
-    {
-        src:
         'https://res.cloudinary.com/dqh7edrn7/image/upload/v1653086366/Portfolio/TesloStore3_x53qqr.jpg',
         alt: 'TesloShop',
         desc: 'TesloShop - Ecommerce',
@@ -25,6 +17,14 @@ const slidesInfo = [
         desc: 'Buscador peliculas',
         url: 'https://buscadorpeliculas-materialui-fdr.netlify.app/',
         tecnologies: 'React - Mui',
+    },
+    {
+        src:
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652885878/Portfolio/musicHouse_small_a9rniw.jpg',
+        alt: 'MusicHouse',
+        desc: 'MusicHouse - Ecommerce',
+        url: 'https://music-house-next.vercel.app/',
+        tecnologies: 'Next - Strapi - Mongo',
     },
     {
         src:
