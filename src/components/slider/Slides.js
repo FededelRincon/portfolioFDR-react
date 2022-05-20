@@ -8,13 +8,15 @@ const slidesInfo = [
         alt: 'MusicHouse',
         desc: 'MusicHouse - Ecommerce',
         url: 'https://music-house-next.vercel.app/',
+        tecnologies: 'Next - Strapi - Mongo',
     },
     {
         src:
-        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652886856/Portfolio/TesloStore2_ssfdcn.jpg',
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1653086366/Portfolio/TesloStore3_x53qqr.jpg',
         alt: 'TesloShop',
         desc: 'TesloShop - Ecommerce',
         url: 'https://teslo-shop-next-js.vercel.app/',
+        tecnologies: 'Next - Mui - Mongo',
     },
     {
         src:
@@ -22,6 +24,7 @@ const slidesInfo = [
         alt: 'BuscadorPeliculas',
         desc: 'Buscador peliculas',
         url: 'https://buscadorpeliculas-materialui-fdr.netlify.app/',
+        tecnologies: 'React - Mui',
     },
     {
         src:
@@ -29,6 +32,7 @@ const slidesInfo = [
         alt: 'BuscadorImagenes',
         desc: 'Buscador imagenes',
         url: 'https://pixabay-react-fdr.netlify.app/',
+        tecnologies: 'React - Bootswatch',
     },
     {
         src:
@@ -36,6 +40,7 @@ const slidesInfo = [
         alt: 'BienesRaices',
         desc: 'Bienes Raices - LandingPage',
         url: 'https://bienesraices-gatsby-fdr.netlify.app/',
+        tecnologies: 'Gatsby - Strapi',
     },
     {
         src:
@@ -43,6 +48,7 @@ const slidesInfo = [
         alt: 'MiCachorrito',
         desc: 'Mi cachorrito - Todo App',
         url: 'https://citasmascotas-react-fdr.netlify.app/',
+        tecnologies: 'React - Tailwind',
     },
 ];
 
@@ -55,6 +61,10 @@ const slides = slidesInfo.map((slide) => {
                 rel="noopener noreferrer"    
             >
                 <img src={slide.src} alt={slide.desc} />
+
+                <div className="slide-tecnologies">
+                    <span>{slide.tecnologies}</span>
+                </div>
                 
                 <div className="slide-desc">
                     <span>{slide.desc}</span>
