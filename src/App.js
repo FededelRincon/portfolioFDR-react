@@ -23,7 +23,6 @@ function App() {
     return (
         <div className="App">
             <Navbar isScrolling={scrollHeight} />
-            {/* hay que hacer el linkedin y conectarlo !!!!!!!!!!!!!! */}
 
             <Cover />
 
@@ -32,7 +31,6 @@ function App() {
             <Slider />
 
             <About />
-            {/* controlar traduccion*/}
 
             <Footer />
         </div>

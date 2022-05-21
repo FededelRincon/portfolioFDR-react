@@ -8,8 +8,6 @@ import "./Slider.css";
 
 const Slider = () => {
 
-    // const sizeScreen = window.innerWidth;
-    // console.log(sizeScreen)
     return (
         <div className="carousel-container">
             <div className="carousel-title">

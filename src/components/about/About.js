@@ -15,7 +15,6 @@ const About = () => {
                 {
                     readMore ? (
                         <>
-                            {/* about se va a la derecha */}
                             <h3>{`< About Me >`}</h3>
                             <p>
                                 I was a Famaf student for 4 years, but if I have to describe myself, I feel more like a self-taught developer, always open to 
@@ -69,7 +68,7 @@ const About = () => {
                         className="button" 
                         type="submit" 
                         value="Download resume" 
-                        onClick={ () => window.open('./prueba.pdf') }
+                        onClick={ () => window.open('./FedericodelRinconResume.pdf') }
                         target="_blank" />
 
                     <input 
