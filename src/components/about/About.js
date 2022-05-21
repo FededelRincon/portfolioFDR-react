@@ -20,9 +20,9 @@ const About = () => {
                             <p>
                                 I was a Famaf student for 4 years, but if I have to describe myself, I feel more like a self-taught developer, always open to 
                                 new challenges and willing to keep on learning. I feel more comfortable at the front-end than the back-end, although, I have 
-                                both knowledge, so I can contribute to both sides of the development process. As I mentioned before. I am be glad to continue learning.
+                                both knowledge, so I can contribute to both sides of the development process. As I mentioned before, I am be glad to continue learning.
                                 I put all my effort to create innovative solutions, focus on achieving the best user experiences, always thinking in a high 
-                                functionality and paying attention to all detail. I love organization and structure when i work, so I place a great emphasis 
+                                functionality and paying attention to all detail. I love organization and structure when I work, so I place a great emphasis 
                                 on making code clean, elegant, and easy to read. 
                                 <span 
                                     className="about-link"

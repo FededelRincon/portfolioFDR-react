@@ -104,10 +104,23 @@
     width: 100%;
     text-align: center;
     padding: 40px 0 30px 0;
-
   }
 
   .slide-container {
     width: 100%;
+  }
+
+  .slide-tecnologies {
+    bottom: 69px;
+    padding-left: 15px;
+  }
+
+  .slide-desc {
+    padding-left: 10px;
+
+  }
+
+  .slide-desc > span {
+    padding: 10px 0 10px 10px;
   }
 }
