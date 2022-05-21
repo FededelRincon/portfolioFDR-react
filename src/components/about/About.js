@@ -68,7 +68,7 @@ const About = () => {
                         className="button" 
                         type="submit" 
                         value="Download resume" 
-                        onClick={ () => window.open('./FedericodelRinconResume.pdf') }
+                        onClick={ () => window.open('./FedericoDelRinconResume.pdf') }
                         target="_blank" />
 
                     <input 
