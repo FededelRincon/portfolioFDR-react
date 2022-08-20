@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/*colores para backup*/
+
+.adobeColors {
+  
+  color: #031226;
+  color: #011640;
+  color: #083359;
+  color: #0A4B73;
+  color: #0B5E8D;
+  color: #0F698C;
+  color: #1FA2BF;
+  color: #25C7D9;
+}
+/* color: #5EF2F2;  */
+
+
+/* colores del video y complementarios */
+/* 3ero y 5to irian seguro, el 1ero opcional */
+
+.paletadecoloresOnline{
+  color: #8cd8ec; color: #eca08c;
+  color: #22aed4; color: #d44822;
+  color: #0c567e; color: #7e340c;
+  color: #3e6e8e; color: #8e5e3e;
+  color: #156c83; color: #832c15;
+  color: #343c4c; color: #4c4434;
+}
+
+/* 083359 */
