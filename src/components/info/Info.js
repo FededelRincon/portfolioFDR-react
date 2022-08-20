@@ -35,6 +35,13 @@ const Info = () => {
                     <h6 className="icon-description">React</h6>
                 </div>
 
+                {/* Angular */}
+                {/* <div className="icon-container"> 
+                    <a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular"/></a>
+                    <a href="https://angular.io" target="_blank" rel="noreferrer"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/></a>
+                    <h6 className="icon-description">Angular</h6>
+                </div> */}
+
                 {/* next */}
                 <div className="icon-container">
                     <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg" alt="NextJs" /></a>
