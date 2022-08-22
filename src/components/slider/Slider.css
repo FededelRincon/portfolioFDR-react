@@ -2,7 +2,7 @@
 .carousel-container {
   background-color: #0c567e;
   padding: 30px 0 80px 0;
-  /* border: solid white 1px; */
+  /* un gradiente aca... quedaria bien, quizas redondo... */
 }
 
 .carousel-title {
@@ -14,13 +14,20 @@
 
 .slide-container {
   border:#949495 solid 3px;
-  /* background-color: #083359; */
   background-color: #949495;
-  width : 100%;
+  /* width : 100%; */
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
 }
+
+.slide-container:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
 .link-decoration{
   text-decoration: none;
 }
@@ -31,9 +38,8 @@
 }
 
 .slide-container:hover > img {
-  transform: scale(1.2);
-  opacity: 0.7;
-  text-decoration: none;
+  /* transform: scale(1.2); */
+  opacity: 0.8;
 }
 
 .slide-tecnologies {
@@ -43,6 +49,8 @@
   /* border-top-left-radius: 20px; */
   /* text-decoration: none; */
   /* opacity: 0.9; */
+
+  background-image: linear-gradient(180deg, #000000 25%, #031226 75%, #083359 100%);
 }
 
 .slide-tecnologies > span {
@@ -56,14 +64,18 @@
   background-color: #083359;
   /* width: 80%; */
   padding-left: 15px;
+  background-image: linear-gradient(180deg, #083359 50%, #0a4b73 90%, #0c567e 100%);
 }
 
 .slide-desc > span {
-  color: #949495;
+  color: white;
   display: block;
-  font-size: 22px;
+  font-size: 25px;
   padding: 20px 0 20px 10px;
 }
+
+
+
 
 .BrainhubCarousel__arrows {
   background-color: #083359;
@@ -112,4 +124,37 @@
   .slide-desc > span {
     padding: 10px 0 10px 10px;
   }
+}
+
+.slide-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 2px 0 1px 0;
+  background-image: linear-gradient(180deg, #0a4b73 50%, #0c567e 100%);
+
+}
+
+
+/* botones + animation */
+.original-button {
+  margin: 10px 0 15px 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #949495;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  border-bottom: 5px solid #083359;
+  transition: 0.3s;
+  background-color: #031226;
+}
+
+.original-button:hover {
+  border-bottom-width: 0;
+  transform: translateY(5px);
 }

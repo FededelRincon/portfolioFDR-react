@@ -22,7 +22,7 @@ const Slider = () => {
                 animationSpeed={200}
                 // centered
                 offset={30}
-                itemWidth={1000}
+                itemWidth={480}
                 // itemWidth={ window.innerWidth < 960 ? 400 : 960 }   // el 1ero para celu, 2do para pc
                 slides={Slides}
                 breakpoints={{

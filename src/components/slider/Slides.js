@@ -55,23 +55,28 @@ const slidesInfo = [
 const slides = slidesInfo.map((slide) => {
     return (
         <div className="slide-container" >
-            <a 
+            {/* <a 
                 className='link-decoration'
                 href={slide.url}
                 target="_blank"
                 rel="noopener noreferrer"    
-            >
-                <img src={slide.src} alt={slide.desc} />
+            > */}
+            <img src={slide.src} alt={slide.desc} />
 
-                <div className="slide-tecnologies">
-                    <span>{slide.tecnologies}</span>
-                </div>
+            <div className="slide-tecnologies">
+                <span>{slide.tecnologies}</span>
+            </div>
+            
+            <div className="slide-desc">
+                <span>{slide.desc}</span>
+            </div>
                 
-                <div className="slide-desc">
-                    <span>{slide.desc}</span>
-                </div>
+            <div className="slide-buttons">
+                <button className='original-button' >Demostracion</button>
+                <button className='original-button' >codigo</button>
+            </div>
                 
-            </a>
+            {/* </a> */}
         </div>
     )
 });
