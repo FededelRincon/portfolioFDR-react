@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import "./App.css";
 
 import Cover from "./components/cover/Cover";
@@ -22,17 +22,23 @@ function App() {
 
     return (
         <div className="App">
-            <Navbar isScrolling={scrollHeight} />
+            <div>
+                <Suspense fallback={<div>loading...</div>}>
 
-            <Cover />
+                    <Navbar isScrolling={scrollHeight} />
 
-            <Info />
+                    <Cover />
 
-            <Slider />
+                    <Info />
 
-            <About />
+                    <Slider />
 
-            <Footer />
+                    <About />
+
+                    <Footer />
+
+                </Suspense>
+            </div>
         </div>
     );
 }
