@@ -4,10 +4,10 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer-info">
+            {/* <div className="footer-info">
                 <h1>Federico del Rincon</h1>
                 <p>Cordoba - Argentina</p>
-            </div>
+            </div> */}
                 <div className="footer-contact">
                     <div className="footer-form">
                         <p className="form-text">

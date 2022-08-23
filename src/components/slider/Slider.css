@@ -4,7 +4,7 @@
   padding: 30px 0 80px 0;
   /* un gradiente aca... quedaria bien, quizas redondo... */
   background: rgb(10,75,115);
-background: linear-gradient(0deg, rgba(10,75,115,1) 0%, rgba(8,51,89,1) 47%, rgba(12,86,126,1) 82%);
+  background: linear-gradient(0deg, rgba(10,75,115,1) 0%, rgba(8,51,89,1) 47%, rgba(12,86,126,1) 82%);
 }
 
 .carousel-title {

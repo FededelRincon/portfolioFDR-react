@@ -1,9 +1,9 @@
 .footer {
   width: 100%;
   /* height: 100vh; */
-  background-color: #202021;
+  background-color: #031226;
   color: #949495;
-  padding-top: 90px;
+  padding-top: 20px;
   /* position: fixed; */
   z-index: -2;
   bottom: 0;
@@ -62,6 +62,7 @@
 
 .button:hover {
   background-color: #083359;
+  /* background-color: #083359; */
   color: #949495;
   transition: all 0.3s ease-out;
   cursor: pointer;
