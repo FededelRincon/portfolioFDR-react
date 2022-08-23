@@ -4,8 +4,9 @@ import "./Loading.css";
 
 export const Loading = () => {
   return (
-    // <div>Loading</div>
-    <div class="loader"></div>
+    <div className='container'>
+      <div class="loader"></div>
+    </div>
 
   )
 }
