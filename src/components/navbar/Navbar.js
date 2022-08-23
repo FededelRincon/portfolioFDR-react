@@ -15,16 +15,16 @@ const Navbar = ({ isScrolling }) => {
 
                 <div className="navbar-right">
                     <a href="https://www.linkedin.com/in/federico-del-rincon/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-linkedin linkedin"></i>
+                        <i className="fab fa-linkedin linkedin boton-navbar"></i>
                     </a>
                     <a href="https://github.com/FededelRincon" target="_blank" rel="noreferrer">
-                        <i className="fab fa-github github"></i>
+                        <i className="fab fa-github github boton-navbar"></i>
                     </a>
                     <a href="https://www.instagram.com/fede_dr21/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-instagram instagram"></i>
+                        <i className="fab fa-instagram instagram boton-navbar"></i>
                     </a>
                     <a href="https://www.facebook.com/federico.delrincon/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-facebook facebook"></i>
+                        <i className="fab fa-facebook facebook boton-navbar"></i>
                     </a>
                 </div>
             </div>

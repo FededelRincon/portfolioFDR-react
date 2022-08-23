@@ -1,8 +1,146 @@
+.carousel-background {
+  background-color: #0c567e;
+  padding: 30px 0 80px 0;
+  background: rgb(10,75,115);
+  background: linear-gradient(0deg, rgba(10,75,115,1) 0%, rgba(8,51,89,1) 47%, rgba(12,86,126,1) 82%);
+}
 
+.carousel-container {
+  /* background-color: tomato; */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 40px;
+  padding: 0 100px 25px 100px;
+}
+
+.slide-container {
+  border:#949495 solid 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  margin: 5px;
+  opacity: 0.7;
+}
+
+.slide-container:hover {
+  opacity: 1;
+}
+
+.slide-container > img {
+  /* object-fit: contain; */
+}
+
+/* Titulo */
+.slide-titulo {
+  color: whitesmoke;
+  /* background-color: #0c567e; */
+  /* padding-left: 15px; */
+  /* background-image: linear-gradient(180deg, #083359 50%, #0a4b73 90%, #0c567e 100%); */
+}
+
+.slide-titulo > span {
+  /* color: white; */
+  display: block;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 20px 0 17px 0px;
+}
+
+.slide-desc{
+  /* background-color: #083359; */
+  max-width: 350px;
+  padding: 10px 0 10px 0;
+}
+
+.slide-desc > span{
+  /* background-color: tomato; */
+  text-align:center
+}
+
+/* descripcion de tecnologias */
+.slide-tecnologies {
+  /* background-color: #083359; */
+  padding: 1px 0 5px 0;
+  /* border-bottom:#949495 solid 2px; */
+  /* padding-left: 20px; */
+  /* background-image: linear-gradient(180deg, #000000 25%, #031226 75%, #083359 100%); */
+}
+
+.slide-tecnologies > span {
+  /* color: #949495; */
+  display: block;
+  font-size: 18px;
+  /* padding: 10px 0 10px 5px; */
+}
+
+/* botones */
+.slide-buttons-container{
+  /* margin: 0 5px 0 5px; */
+  /* background-color: tomato; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  margin: 20px 0 20px 0 ;
+}
+
+.slide-buttons-link {
+  margin: 0 30px;
+}
+
+.slide-boton-card{
+  /* background-color: tomato; */
+  /* margin: 8px 50px; */
+  font-size: 40px;
+  /* padding: 5px; */
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: #8cd8ec
+}
+
+.slide-boton-card:hover {
+  color: #0c567e;
+  cursor: pointer;
+  transition: all 0.5s ease;
+
+}
+
+/* flechas del carousel */
+.BrainhubCarousel__arrows:first-child {
+  background-color: #031226;
+  opacity: 0.9;
+  border-radius: 50%;
+  /* margin-right: 5px; */
+}
+
+.BrainhubCarousel__arrows:last-child {
+  background-color: #031226;
+  opacity: 0.9;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.BrainhubCarousel__arrows > span {
+  border-color: #949495;
+}
+
+.BrainhubCarousel__arrows:hover {
+  background-color: #083359 !important;
+}
+
+.BrainhubCarousel__arrows:hover > span {
+  border-color: #949495 !important;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////
 .carousel-container {
   background-color: #0c567e;
   padding: 30px 0 80px 0;
-  /* un gradiente aca... quedaria bien, quizas redondo... */
   background: rgb(10,75,115);
   background: linear-gradient(0deg, rgba(10,75,115,1) 0%, rgba(8,51,89,1) 47%, rgba(12,86,126,1) 82%);
 }
@@ -17,7 +155,6 @@
 .slide-container {
   border:#949495 solid 3px;
   background-color: #949495;
-  /* width : 100%; */
   border-radius: 15px;
   overflow: hidden;
   cursor: pointer;
@@ -40,7 +177,6 @@
 }
 
 .slide-container:hover > img {
-  /* transform: scale(1.2); */
   opacity: 0.8;
 }
 
@@ -48,10 +184,6 @@
   background-color: #083359;
   border-bottom:#949495 solid 2px;
   padding-left: 20px;
-  /* border-top-left-radius: 20px; */
-  /* text-decoration: none; */
-  /* opacity: 0.9; */
-
   background-image: linear-gradient(180deg, #000000 25%, #031226 75%, #083359 100%);
 }
 
@@ -64,7 +196,6 @@
 
 .slide-desc {
   background-color: #083359;
-  /* width: 80%; */
   padding-left: 15px;
   background-image: linear-gradient(180deg, #083359 50%, #0a4b73 90%, #0c567e 100%);
 }
@@ -134,11 +265,11 @@
   margin: 2px 0 1px 0;
   background-image: linear-gradient(180deg, #0a4b73 50%, #0c567e 100%);
 
-}
+} */
 
 
 /* botones + animation */
-.slide-button {
+/* .slide-button {
   background-color: #202021;
   color: #949495;
   border: 2px solid #949495;
@@ -155,4 +286,4 @@
 .slide-button:hover {
   opacity: 0.8;
   transition: all 0.3s ease-out;
-}
+} */
