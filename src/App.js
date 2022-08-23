@@ -1,12 +1,15 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect, Suspense, lazy } from "react";
 import "./App.css";
+import { Loading } from "./components/loading/Loading";
 
-import Cover from "./components/cover/Cover";
-import Navbar from "./components/navbar/Navbar";
-import About from "./components/about/About";
-import Slider from "./components/slider/Slider";
-import Info from "./components/info/Info";
-import Footer from "./components/footer/Footer";
+
+const Cover = lazy( () => import('./components/cover/Cover') );
+const Navbar = lazy( () => import('./components/navbar/Navbar') );
+const About = lazy( () => import('./components/about/About') );
+const Slider = lazy( () => import('./components/slider/Slider') );
+const Info = lazy( () => import('./components/info/Info') );
+const Footer = lazy( () => import('./components/footer/Footer') );
+
 
 function App() {
     const [scrollHeight, setScrollHeight] = useState(0);
@@ -23,7 +26,7 @@ function App() {
     return (
         <div className="App">
             <div>
-                <Suspense fallback={<div>loading...</div>}>
+                <Suspense fallback={ <Loading /> }>
 
                     <Navbar isScrolling={scrollHeight} />
 
