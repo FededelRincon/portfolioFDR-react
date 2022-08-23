@@ -8,7 +8,8 @@ const slidesInfo = [
         alt: 'TesloShop',
         desc: 'TesloShop - Ecommerce',
         url: 'https://teslo-shop-next-js.vercel.app/',
-        tecnologies: 'Next - Mui - Mongo',
+        tecnologies: 'Next - MaterialUI - Mongo',
+        github: 'https://github.com/FededelRincon/teslo-shop-nextJs',
     },
     {
         src:
@@ -16,7 +17,8 @@ const slidesInfo = [
         alt: 'BuscadorPeliculas',
         desc: 'Buscador peliculas',
         url: 'https://buscadorpeliculas-materialui-fdr.netlify.app/',
-        tecnologies: 'React - Mui',
+        tecnologies: 'React - MaterialUI',
+        github: 'https://github.com/FededelRincon/BuscadorPeliculasReactMaterialUI',
     },
     {
         src:
@@ -25,6 +27,7 @@ const slidesInfo = [
         desc: 'MusicHouse - Ecommerce',
         url: 'https://music-house-next.vercel.app/',
         tecnologies: 'Next - Strapi - Mongo',
+        github: 'https://github.com/FededelRincon/music-house-next',
     },
     {
         src:
@@ -33,6 +36,7 @@ const slidesInfo = [
         desc: 'Buscador imagenes',
         url: 'https://pixabay-react-fdr.netlify.app/',
         tecnologies: 'React - Bootswatch',
+        github: 'https://github.com/FededelRincon/BuscadorImagenesPixabay-React',
     },
     {
         src:
@@ -41,6 +45,7 @@ const slidesInfo = [
         desc: 'Bienes Raices - LandingPage',
         url: 'https://bienesraices-gatsby-fdr.netlify.app/',
         tecnologies: 'Gatsby - Strapi',
+        github: 'https://github.com/FededelRincon/bienesRaices-strapi',
     },
     {
         src:
@@ -49,18 +54,23 @@ const slidesInfo = [
         desc: 'Mi cachorrito - Todo App',
         url: 'https://citasmascotas-react-fdr.netlify.app/',
         tecnologies: 'React - Tailwind',
+        github: 'https://github.com/FededelRincon/citasMiCachorrito-react',
     },
+    {
+        src:
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652887061/Portfolio/citas_Small_ii3zq5.jpg',
+        alt: 'fdrMaps',
+        desc: 'Maps - App de mapas',
+        url: 'https://maps-fdr.netlify.app/',
+        tecnologies: 'React - Bootstrap',
+        github: 'https://github.com/FededelRincon/maps-vite-mapbox',
+    },
+    // agregar el de gifExpert
 ];
 
 const slides = slidesInfo.map((slide) => {
     return (
         <div className="slide-container" >
-            {/* <a 
-                className='link-decoration'
-                href={slide.url}
-                target="_blank"
-                rel="noopener noreferrer"    
-            > */}
             <img src={slide.src} alt={slide.desc} />
 
             <div className="slide-tecnologies">
@@ -71,12 +81,21 @@ const slides = slidesInfo.map((slide) => {
                 <span>{slide.desc}</span>
             </div>
                 
-            <div className="slide-buttons">
-                <button className='original-button' >Demostracion</button>
-                <button className='original-button' >codigo</button>
+            <div className="slide-buttons-container">
+                <a 
+                    className="slide-button" 
+                    href={slide.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Demostracion</a>
+                    
+                <a 
+                    className='slide-button' 
+                    href={slide.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Codigo</a>
             </div>
-                
-            {/* </a> */}
         </div>
     )
 });

@@ -3,6 +3,8 @@
   background-color: #0c567e;
   padding: 30px 0 80px 0;
   /* un gradiente aca... quedaria bien, quizas redondo... */
+  background: rgb(10,75,115);
+background: linear-gradient(0deg, rgba(10,75,115,1) 0%, rgba(8,51,89,1) 47%, rgba(12,86,126,1) 82%);
 }
 
 .carousel-title {
@@ -24,7 +26,7 @@
 }
 
 .slide-container:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   transition: all 0.5s ease-in-out;
 }
 
@@ -126,7 +128,7 @@
   }
 }
 
-.slide-buttons {
+.slide-buttons-container {
   display: flex;
   justify-content: space-around;
   margin: 2px 0 1px 0;
@@ -136,25 +138,21 @@
 
 
 /* botones + animation */
-.original-button {
-  margin: 10px 0 15px 0 ;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  text-decoration: none;
+.slide-button {
+  background-color: #202021;
   color: #949495;
-  font-size: 18px;
-  border-radius: 20px;
-  width: 170px;
-  height: 40px;
-  font-weight: bold;
-  border-bottom: 5px solid #083359;
-  transition: 0.3s;
-  background-color: #031226;
+  border: 2px solid #949495;
+  border-radius: 8px;
+  text-decoration: none;
+
+  width: 100%;
+  padding: 9px 18px;
+  margin: 5px 5px;
+  transition: all 0.3s ease-out;
+  opacity: 1;
 }
 
-.original-button:hover {
-  border-bottom-width: 0;
-  transform: translateY(5px);
+.slide-button:hover {
+  opacity: 0.8;
+  transition: all 0.3s ease-out;
 }
