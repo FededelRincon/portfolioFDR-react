@@ -1,7 +1,7 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import "./App.css";
+import { CarouselComponent } from "./components/carousel/CarouselComponent";
 import { Loading } from "./components/loading/Loading";
-import { DemoCarousel } from "./components/demoCarousel/DemoCarousel";
 
 
 const Cover = lazy( () => import('./components/cover/Cover') );
@@ -34,9 +34,7 @@ function App() {
 
                     <Info />
 
-                    {/* <Slider /> */}
-
-                    <DemoCarousel/>
+                    <CarouselComponent/>
 
                     <About />
 

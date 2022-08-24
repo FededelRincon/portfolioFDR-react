@@ -7,7 +7,7 @@
 
 .carousel-root{
     background: #0C567E;
-    background: linear-gradient(to bottom, #0C567E 10%, #031226b7 38%, #0C567E 80%);
+    background: linear-gradient(to bottom, #0C567E 10%, #031226b7 42%, #0C567E 80%);
 
     display: flex;
     flex-direction: column;
@@ -19,12 +19,10 @@
     border: solid white 3px;
     border-radius: 10px;
     overflow: hidden;
-    /* background-color: rgb(13, 94, 73); */
-    min-height: 350px;    
+    min-height: 380px;
 
 
     background: #031226;
-    /* background: linear-gradient(to bottom, #031226 40%, #0C567E 70%, #0C567E 80%, #031226 100%); */
     background: linear-gradient(to right, #031226 0%, #0C567E 30%, #0C567E 80%, #031226 100%);
 
 }
@@ -44,18 +42,10 @@
     display: none;
 }
 
-.control-dots { 
-    /* mover los dots segun el tamaño de la imagen */
-    /* top: 625px; */
-    top: 320px;
-    /* top: 325px; */
-
-}
-
 
 .slide-titulo{
     font-size: 30px;
-    padding: 15px 0 10px 0px;
+    padding: 20px 0 10px 0px;
 }
 
 .slide-desc{
@@ -69,7 +59,7 @@
 
 /* butons */
 .slide-buttons-link {
-    padding: 5px 0;
+    padding: 15px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
