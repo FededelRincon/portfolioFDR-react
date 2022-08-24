@@ -1,7 +1,3 @@
-/* oscuro: #202021; */
-/* claro: #949495; */
-/* rojo: #410b0b */
-
 .navbar {
   position: fixed;
   top: 0;
@@ -46,6 +42,8 @@
   line-height: 80px;
   color: #949495;
   cursor: pointer;
+  display: flex;
+  justify-content: space-around;
 }
 
 
