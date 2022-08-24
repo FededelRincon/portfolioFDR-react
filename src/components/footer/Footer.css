@@ -72,12 +72,10 @@
   margin-right: 150px;
   font-size: 18px;
   color: #949495;
+  padding: 0 0 40px 0;
 }
 
 @media only screen and (max-width: 960px) {
-  .footer {
-    height: 100vh;
-  }
 
   .footer-info {
     text-align: center;
@@ -91,15 +89,4 @@
     text-align: center;
   }
 
-  .design-by {
-    display: none;
-    /* padding: 0 0 40px 0; */
-  }
-}
-
-@media screen and (max-height: 700px) {
-  .design-by {
-    /* display: none; */
-    /* padding: 0 0 20px 0; */
-  }
 }

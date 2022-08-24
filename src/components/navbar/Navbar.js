@@ -9,7 +9,7 @@ const Navbar = ({ isScrolling }) => {
     return (
         <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
             <div className="navbar-flex">
-                <div className="navbar-left" onClick={toTheTop}>
+                <div className={`navbar-left ${isScrolling > 20 ? 'show' : 'notShow'}`} onClick={toTheTop}>
                     Federico del Rincon
                 </div>
 

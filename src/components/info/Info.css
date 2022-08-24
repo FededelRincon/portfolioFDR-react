@@ -1,7 +1,6 @@
 .container {
   height: 150px;
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-around;
   padding-top: 10px;
   border-top: solid #000 15px;
@@ -13,7 +12,6 @@ h3 {
   font-size: 22px;
   margin-bottom: 5px;
   color: whitesmoke;
-  /* color: #8cd8ec */
 }
 
 ul {

@@ -27,10 +27,19 @@
 }
 .navbar-left{
   color: #949495;
-  /* background-color: maroon; */
   padding-top: 25px;
 }
 
+.notShow {
+  color: transparent;
+  transition: all 3s ease;
+
+}
+.show{
+  color: #949495;
+  transition: all 3s ease;
+
+}
 
 .navbar-right {
   height: 80px;
