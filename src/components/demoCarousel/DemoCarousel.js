@@ -91,7 +91,7 @@ export const DemoCarousel = () => {
     return (
         <div className='carousel'>
             <Carousel 
-                width={400}
+                width={ window.innerWidth > 380 ? 400 : 340 }
                 infiniteLoop={true}
                 emulateTouch={true}
                 autoPlay={true}

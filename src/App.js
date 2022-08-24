@@ -1,13 +1,12 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import "./App.css";
-import { DemoCarousel } from "./components/demoCarousel/DemoCarousel";
 import { Loading } from "./components/loading/Loading";
+import { DemoCarousel } from "./components/demoCarousel/DemoCarousel";
 
 
 const Cover = lazy( () => import('./components/cover/Cover') );
 const Navbar = lazy( () => import('./components/navbar/Navbar') );
 const About = lazy( () => import('./components/about/About') );
-const Slider = lazy( () => import('./components/slider/Slider') );
 const Info = lazy( () => import('./components/info/Info') );
 const Footer = lazy( () => import('./components/footer/Footer') );
 
