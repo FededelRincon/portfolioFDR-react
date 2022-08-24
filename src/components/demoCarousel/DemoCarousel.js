@@ -95,13 +95,9 @@ export const DemoCarousel = () => {
                 infiniteLoop={true}
                 emulateTouch={true}
                 autoPlay={true}
-                // poner BIEN el intervalo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! TODO: algo
-                // interval={3500}
-                interval={35000000000}
+                interval={3000}
                 renderArrowPrev={() => false}
                 renderArrowNext={() => false}
-                // renderIndicator={() => false}
-                // renderThumbs={() => false}
                 autoFocus={false}
                 thumbWidth={80}
             >
