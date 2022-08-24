@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import "./App.css";
+import { DemoCarousel } from "./components/demoCarousel/DemoCarousel";
 import { Loading } from "./components/loading/Loading";
 
 
@@ -34,7 +35,9 @@ function App() {
 
                     <Info />
 
-                    <Slider />
+                    {/* <Slider /> */}
+
+                    <DemoCarousel/>
 
                     <About />
 

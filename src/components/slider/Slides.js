@@ -85,7 +85,7 @@ const slidesInfo = [
 const slides = slidesInfo.map((slide) => {
     return (
         <div className="slide-container" >
-            <img src={slide.src} alt={slide.alt} />
+            {/* <img src={slide.src} alt={slide.alt} />
 
             {/* titulo */}
             <div className="slide-titulo">
@@ -121,7 +121,7 @@ const slides = slidesInfo.map((slide) => {
                 >
                     <i className="fab fa-github slide-boton-card "></i>
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 });

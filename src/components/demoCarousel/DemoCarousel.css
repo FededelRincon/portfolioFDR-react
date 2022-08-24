@@ -1,0 +1,84 @@
+/* https://github.com/leandrowd/react-responsive-carousel */
+
+.carousel{
+    background-color: tomato;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 10px;
+    /* margin: 0 auto; */
+}   
+
+.carousel-root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    border: solid white 1px;
+    background-color: rgb(13, 94, 73);
+    min-height: 350px;    
+}
+
+.slide {
+    /* max-width: es por medio del componente */
+    /* max-width: 400px; */
+    max-height: 400px;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.control-dots { 
+    /* mover los dots segun el tamaño de la imagen */
+    /* top: 625px; */
+    top: 320px
+
+    /* background-color: aqua; */
+    /* position: relative; */
+    /* left: 55px; */
+    /* bottom: 55px; */
+}
+
+
+.slide-titulo{
+    font-size: 30px;
+    padding: 15px 0 10px 0px;
+}
+
+.slide-desc{
+    font-size: 18px;
+}
+
+.slide-tecnologies{
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+}
+
+/* butons */
+.slide-buttons-link {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slide-boton-card{
+    /* background-color: tomato; */
+    /* margin: 8px 50px; */
+    font-size: 35px;
+    /* padding: 5px; */
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #8cd8ec
+  }
+  
+  .slide-boton-card:hover {
+    color: #031226;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  
+  }
