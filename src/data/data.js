@@ -46,7 +46,8 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/BuscadorImagenesPixabay-React',
     },
     {
-        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1652974282/Portfolio/Bienes_Raices_wtxlqa.jpg',
+        src: 
+        'https://res.cloudinary.com/dqh7edrn7/image/upload/v1661381291/Portfolio/05_xe3ysq.jpg',
         alt: 'BienesRaices',
         titulo: 'Bienes Raices',
         desc: 'Landing Page de una inmobiliaria',
