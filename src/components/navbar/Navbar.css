@@ -21,6 +21,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
 .navbar-left{
   color: #949495;
   padding-top: 25px;
@@ -29,12 +30,11 @@
 .notShow {
   color: transparent;
   transition: all 3s ease;
-
 }
+
 .show{
   color: #949495;
   transition: all 3s ease;
-
 }
 
 .navbar-right {
@@ -58,6 +58,7 @@
   margin: 0 auto;
   padding-bottom: 10px;
   border-bottom: 4px solid transparent;
+  
 }
 
 .linkedin:hover,
@@ -100,10 +101,19 @@
     /* align-items: center; */
     /* justify-content: center; */
     /* background-color: coral; */
-
+    
     /* display: flex; */
     /* flex-direction: row; */
     /* justify-content: space-between; */
   }
 
+}
+
+@media (max-width: 450px) { 
+
+  .boton-navbar {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;  
+  }
 }
