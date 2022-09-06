@@ -17,12 +17,16 @@ const About = () => {
                         <>
                             <h3>{`< About Me >`}</h3>
                             <p>
-                                I was a Famaf student for 4 years, but if I have to describe myself, I feel more like a self-taught developer, always open to 
-                                new challenges and willing to keep on learning. I feel more comfortable at the front-end than the back-end, although, I have 
-                                both knowledge, so I can contribute to both sides of the development process. As I mentioned before, I am be glad to continue learning.
-                                I put all my effort to create innovative solutions, focus on achieving the best user experiences, always thinking in a high 
-                                functionality and paying attention to all detail. I love organization and structure when I work, so I place a great emphasis 
-                                on making code clean, elegant, and easy to read. 
+                            I was a Famaf student for 4 years, but if I had to describe myself as a 
+                            developer, I would say I am more self-taught, always open to new challenges, 
+                            receptive and versatile. Although I feel more comfortable at the front-end 
+                            than the back-end, I am always eager to keep on learning  so I can contribute 
+                            to both sides of the development process. I specialize in creating innovative 
+                            solutions and achieving the best user experience by always seeking functionality 
+                            and paying close attention to detail. I have strong organizational and planning 
+                            skills, therefore I place a great emphasis on making code clean, elegant, and 
+                            easy to read.
+                                <br></br>
                                 <span 
                                     className="about-link"
                                     onClick={ () => handleReadMore(false) } >
@@ -36,13 +40,19 @@ const About = () => {
                         <>
                             <h3>{`< About Me >`}</h3>
                             <p>
-                                I was born and raised in Argentina. When I stopped my studies at Famaf, for different reasons of life, I started to study Real 
-                                Estate Broker's career. I finished it and also I'd the opportunity to worked in this profession for a while, but I knew from 
-                                the beginning that it was not for me. So when the pandemic strike us, my life slowed down, and I stumbled upon some online 
-                                courses and instantly decided I wanted to learn to program, but this time looking for a real working opportunity. I took courses 
-                                of different kinds of technologies like Python, HTML, CSS, JS, TS, and also take challenges studying react, Next, Express, Mongo, 
-                                among others. I consider that I don't have any crazy passions or super cool hobbies, but if I have to describe what makes me 
-                                happiest are playing guitar, reading a good book, eating a slice of pizza, traveling, and of course, learn new things.
+                            I was born and raised in Argentina. After studying at Famaf for 4 years, 
+                            I decided to pursue a career in Real Estate. However, I soon realized I 
+                            was not passionate about it, so when the pandemic broke out, I had time 
+                            to reflect upon my professional goals. I took some online programming 
+                            courses and I instantly decided I wanted to become a programmer, but this 
+                            time, focusing on real job opportunities. I have since then taken courses 
+                            on several programming topics like Python, HTML, CSS, JS, TS, React, 
+                            Express and Mongo, and especially challenging frameworks, such as Next 
+                            and React-Native. As regards my passions and hobbies, I absolutely love 
+                            traveling and playing the guitar, but I also enjoy simple things, 
+                            like reading an interesting book, eating a good slice of pizza, 
+                            and of course, learning new things.
+                                <br></br>
                                 <span 
                                     className="about-link"
                                     onClick={ () => handleReadMore(true) } >
