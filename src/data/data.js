@@ -9,6 +9,15 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/maps-vite-mapbox',
     },
     {
+        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1667066893/Portfolio/01_ifinym.jpg',
+        alt: 'WeatherApp',
+        titulo: 'Weather',
+        desc: 'Pagina para mostrar el clima usando OpenWeatherMap',
+        tecnologies: 'React - Axios - css vanila',
+        url: 'https://weather-app-react-sandy.vercel.app/',
+        github: 'https://github.com/FededelRincon/weatherAppReact',
+    },
+    {
         src: 
         'https://res.cloudinary.com/dqh7edrn7/image/upload/v1661381290/Portfolio/01_khhrfi.jpg',
         alt: 'TesloShop',
