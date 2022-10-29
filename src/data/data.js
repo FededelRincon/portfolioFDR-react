@@ -73,5 +73,6 @@ export const slidesInfo = [
         url: 'https://citasmascotas-react-fdr.netlify.app/',
         github: 'https://github.com/FededelRincon/citasMiCachorrito-react',
     },
+    
     // agregar el de gifExpert
 ];
