@@ -37,15 +37,6 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/BuscadorPeliculasReactMaterialUI',
     },
     {
-        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1661381290/Portfolio/03_sple4r.jpg',
-        alt: 'MusicHouse',
-        titulo: 'MusicHouse',
-        desc: 'Simil Ecommerce de tienda de musica',
-        tecnologies: 'Next - Strapi - Mongo',
-        url: 'https://music-house-next.vercel.app/',
-        github: 'https://github.com/FededelRincon/music-house-next',
-    },
-    {
         src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1661381291/Portfolio/04_enrwbf.jpg',
         alt: 'BuscadorImagenes',
         titulo: 'Buscador Imagenes',
