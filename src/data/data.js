@@ -37,6 +37,15 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/BuscadorPeliculasReactMaterialUI',
     },
     {
+        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1672409911/Portfolio/09_qg5jed.jpg',
+        alt: 'PokeApp',
+        titulo: 'PokeApp',
+        desc: 'Pokedex usando la API de Pokeapi.co',
+        tecnologies: 'React - Next - MaterialUI',
+        url: 'https://pokemon-next-mui-rabt.vercel.app/',
+        github: 'https://github.com/FededelRincon/pokemon-next-mui',
+    },
+    {
         src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1661381291/Portfolio/04_enrwbf.jpg',
         alt: 'BuscadorImagenes',
         titulo: 'Buscador Imagenes',
