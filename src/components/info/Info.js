@@ -5,19 +5,20 @@ const Info = () => {
     return (
         <div className="container">
             <div>
-                <h3>Basicos</h3>
+                <h3>Lenguajes</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
                     <li>TS</li>
+                    <li>PHP</li>
                 </ul>
             </div>
 
             <div>
                 <h3>Front End</h3>
                 <ul>
-                    {/* <li>Angular</li> */}
+                    <li>Angular</li>
                     <li>React</li>
                     <li>Next</li>
                 </ul>
@@ -37,11 +38,11 @@ const Info = () => {
                 <ul>
                     <li>Express</li>
                     <li>Node</li>
-                    {/* <li>Nest</li> */}
+                    <li>Nest</li>
                 </ul>
             </div>            
 
-            <div>
+            <div className="hide">
                 <h3>Mobile</h3>
                 <ul>
                     <li>React-Native</li>
@@ -49,11 +50,12 @@ const Info = () => {
             </div>
 
             <div className="hide">
-                <h3>Otros</h3>
+                <h3>Others</h3>
                 <ul>
                     <li>PhotoShop</li>
                     <li>Strapi</li>
                     <li>WorkBox</li>
+                    <li>Wordpress</li>
                 </ul>
             </div>
         </div>
