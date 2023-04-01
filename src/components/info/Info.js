@@ -55,7 +55,6 @@ const Info = () => {
                     <li>PhotoShop</li>
                     <li>Strapi</li>
                     <li>WorkBox</li>
-                    <li>Wordpress</li>
                 </ul>
             </div>
         </div>
