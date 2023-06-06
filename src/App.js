@@ -4,8 +4,8 @@ import { CarouselComponent } from "./components/carousel/CarouselComponent";
 import { Loading } from "./components/loading/Loading";
 
 
-const Cover = lazy( () => import('./components/cover/Cover') );
 const Navbar = lazy( () => import('./components/navbar/Navbar') );
+const Cover = lazy( () => import('./components/cover/Cover') );
 const About = lazy( () => import('./components/about/About') );
 const Info = lazy( () => import('./components/info/Info') );
 const Footer = lazy( () => import('./components/footer/Footer') );
@@ -32,11 +32,11 @@ function App() {
 
                     <Cover />
 
-                    <Info />
+                    <About />
 
                     <CarouselComponent/>
 
-                    <About />
+                    <Info />
 
                     <Footer />
 

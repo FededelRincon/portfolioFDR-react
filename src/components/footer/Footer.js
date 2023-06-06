@@ -4,10 +4,8 @@ import "./Footer.css";
 const Footer = () => {
     return (
         <footer className="footer">
-            {/* <div className="footer-info">
-                <h1>Federico del Rincon</h1>
-                <p>Cordoba - Argentina</p>
-            </div> */}
+            
+            <h3 className='footer-title'>{`< Contact >`}</h3>
                 <div className="footer-contact">
                     <div className="footer-form">
                         <p className="form-text">

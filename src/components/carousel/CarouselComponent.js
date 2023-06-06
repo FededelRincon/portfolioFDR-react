@@ -11,34 +11,39 @@ import "./Carousel.css";
 
 export const CarouselComponent = () => {
     return (
-        <div className='carousel'>
-            <Carousel 
-                width={ window.innerWidth > 380 ? 400 : 340 }
-                infiniteLoop={true}
-                emulateTouch={true}
-                autoPlay={true}
-                interval={3000}
-                renderArrowPrev={() => false}
-                renderArrowNext={() => false}
-                autoFocus={false}
-                thumbWidth={80}
-                showIndicators={false}
-            >
-                {
-                    slidesInfo.map( (slide) => (
-                        <div
-                            key={slide.titulo}
-                            className='card-container'
-                        >
-                            <img src={slide.src} alt={slide.alt} />
-                            {/* <img src="https://res.cloudinary.com/dqh7edrn7/image/upload/v1661267925/prueba_c8jbbn.jpg" /> */}
-                            <CarouselCards slide={slide} />
+        <div>
 
-                        </div>
-                    ))
-                }
-                
-            </Carousel>
+            <div className='carousel'>
+            <h3 className='Carousel-title'>{`< My proyects >`}</h3>
+                <Carousel 
+                    width={ window.innerWidth > 380 ? 400 : 340 }
+                    infiniteLoop={true}
+                    emulateTouch={true}
+                    autoPlay={true}
+                    interval={3000}
+                    renderArrowPrev={() => false}
+                    renderArrowNext={() => false}
+                    autoFocus={false}
+                    thumbWidth={80}
+                    showIndicators={false}
+                >
+                    {
+                        slidesInfo.map( (slide) => (
+                            <div
+                                key={slide.titulo}
+                                className='card-container'
+                            >
+                                <img src={slide.src} alt={slide.alt} />
+                                {/* <img src="https://res.cloudinary.com/dqh7edrn7/image/upload/v1661267925/prueba_c8jbbn.jpg" /> */}
+                                <CarouselCards slide={slide} />
+
+                            </div>
+                        ))
+                    }
+                    
+                </Carousel>
+            </div>
+
         </div>
 
     )
