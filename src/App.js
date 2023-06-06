@@ -3,6 +3,9 @@ import "./App.css";
 import { CarouselComponent } from "./components/carousel/CarouselComponent";
 import { Loading } from "./components/loading/Loading";
 
+// import 'animate.css';
+import 'animate.css/animate.min.css';
+
 
 const Navbar = lazy( () => import('./components/navbar/Navbar') );
 const Cover = lazy( () => import('./components/cover/Cover') );

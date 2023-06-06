@@ -10,7 +10,7 @@ const Cover = () => {
 			
 			<video className="video" src={coverVideo} autoPlay loop muted />
 			
-			<h1>Federico del Rincon</h1>
+			<h1 className="animate__animated animate__bounceInLeft" >Federico del Rincon</h1>
 			<p className="job">Full Stack Developer</p>
 		</div>
 	);
