@@ -9,6 +9,15 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/maps-vite-mapbox',
     },
     {
+        src:'https://res.cloudinary.com/dqh7edrn7/image/upload/v1688527712/Portfolio/gifApp-small_i5amas.jpg', 
+        alt: 'GifsApp',
+        titulo: 'GifsApp',
+        desc: 'App que muestra gif usando la API de Giphy',
+        tecnologies: 'Angular - Bootstrap',
+        url: 'https://angular-gif-app-eight.vercel.app/',
+        github: 'https://github.com/FededelRincon/angular-gifApp',
+    },
+    {
         src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1667066893/Portfolio/01_ifinym.jpg',
         alt: 'WeatherApp',
         titulo: 'Weather',
