@@ -9,15 +9,6 @@ export const slidesInfo = [
         github: 'https://github.com/FededelRincon/maps-vite-mapbox',
     },
     {
-        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1700752959/Portfolio/musicAcademy_sxua4j.jpg',
-        alt: 'musicAcademy',
-        titulo: 'Music Academy',
-        desc: 'Landing de Academia de Musica',
-        tecnologies: 'Wordpress',
-        url: 'https://dev-musicacademy-fede.pantheonsite.io/',
-        github: 'https://github.com/FededelRincon/musicAcademy-wp',
-    },
-    {
         src:'https://res.cloudinary.com/dqh7edrn7/image/upload/v1700761928/Portfolio/oasis_vuyxdm.jpg', 
         alt: 'Oasis',
         titulo: 'Oasis',
@@ -100,6 +91,13 @@ export const slidesInfo = [
         url: 'https://citasmascotas-react-fdr.netlify.app/',
         github: 'https://github.com/FededelRincon/citasMiCachorrito-react',
     },
-
-    // agregar el de gifExpert
+    {
+        src: 'https://res.cloudinary.com/dqh7edrn7/image/upload/v1700752959/Portfolio/musicAcademy_sxua4j.jpg',
+        alt: 'musicAcademy',
+        titulo: 'Music Academy',
+        desc: 'Landing de Academia de Musica',
+        tecnologies: 'Wordpress',
+        url: 'https://dev-musicacademy-fede.pantheonsite.io/',
+        github: 'https://github.com/FededelRincon/musicAcademy-wp',
+    },
 ];
