@@ -3,6 +3,8 @@
 .Carousel-title {
     font-size: 40px;
     margin-bottom: 30px;
+    color: whitesmoke;
+    text-align: center;
     background: linear-gradient(to bottom, #0C567E 20%, #031226b7 42%, #0C567E 90%);
 }
 
@@ -38,6 +40,10 @@
     max-height: 400px;
 }
 
+.carousel .thumbs {
+    text-align: center;
+}
+
 .thumb {
     /* background-color: tomato; */
     border-radius: 5px;
@@ -51,15 +57,21 @@
 .slide-titulo{
     font-size: 30px;
     padding: 20px 0 10px 0px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .slide-desc{
     font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
 }
 
 .slide-tecnologies{
     font-size: 16px;
     padding: 5px 0 5px 0;
+    color: #8cd8ec;
+    text-align: center;
 }
 
 /* butons */

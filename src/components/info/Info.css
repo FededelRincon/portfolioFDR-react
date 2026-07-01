@@ -1,54 +1,82 @@
-.main-container{
-  background-color: #0C567E;
+.main-container {
+  background-color: #0c567e;
   padding-top: 40px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  /* padding-bottom: 20px; */
-  border-top: solid #0C567E 15px;
-  background-image: linear-gradient(0deg, #031226 10%, #083359 75%, #0C567E 94%);
-  
-}
-
-
-h3 {
-  text-align: center;
-  font-size: 22px;
-  margin-bottom: 5px;
-  color: whitesmoke;
-}
-
-ul {
-  color: #8cd8ec;
-  list-style: none;
-  text-align: center;
+  padding-bottom: 60px;
+  background-image: linear-gradient(0deg, #031226 10%, #083359 75%, #0c567e 94%);
 }
 
 .info-title {
   font-size: 40px;
-  margin: 50px 0 30px 0;
-  background: linear-gradient(to bottom, #0C567E 20%, #031226b7 42%, #0C567E 90%);
-  background-color: #0C567E;
+  text-align: center;
+  color: whitesmoke;
+  margin: 50px 0 40px 0;
+  background: linear-gradient(to bottom, #0c567e 20%, #031226b7 42%, #0c567e 90%);
+  background-color: #0c567e;
 }
 
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
+.tech-category {
+  background-color: rgba(3, 18, 38, 0.45);
+  border: 1px solid #0c567e;
+  border-radius: 14px;
+  padding: 24px 28px;
+  min-width: 240px;
+}
+
+.tech-category-title {
+  text-align: center;
+  font-size: 20px;
+  color: #8cd8ec;
+  margin-bottom: 20px;
+}
+
+.tech-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 22px;
+}
+
+.tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 72px;
+  transition: transform 0.2s ease-out;
+}
+
+.tech-item:hover {
+  transform: translateY(-4px);
+}
+
+.tech-icon {
+  font-size: 38px;
+}
+
+.tech-name {
+  font-size: 13px;
+  color: whitesmoke;
+  text-align: center;
+}
 
 @media only screen and (max-width: 960px) {
-  
-  .container {
-    height: 350px;
-    flex-direction: column;
-    align-items: center;
+  .info-title {
+    font-size: 32px;
   }
 
-  ul:last-of-type {
-    margin-bottom: 5px;
+  .tech-category {
+    width: 100%;
+    max-width: 360px;
   }
-
-  .hide {
-    display: none;
-  }
-
 }
