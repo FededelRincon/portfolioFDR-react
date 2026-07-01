@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 import { CarouselCards } from "./CarouselCards";
 import { slidesInfo } from "../../data/data";
+import { useLang } from "../../context/LanguageContext";
 
 import "./Carousel.css";
 
@@ -16,9 +17,11 @@ const containerVariants = {
 };
 
 export const CarouselComponent = () => {
+    const { t } = useLang();
+
     return (
         <section className="projects">
-            <h3 className="Carousel-title">{`< My proyects >`}</h3>
+            <h3 className="Carousel-title">{t.projects.title}</h3>
 
             <motion.div
                 className="projects-grid"

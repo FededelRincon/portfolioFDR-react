@@ -19,9 +19,10 @@
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 17ch;
+  /* ancho y cantidad de pasos adaptativos al texto (cambia por idioma) */
+  width: var(--job-width, 17ch);
 
-  animation: typing 4s steps(21), 
+  animation: typing 4s steps(var(--job-steps, 20)),
   blink .6s infinite step-end alternate;
   overflow: hidden;
 }

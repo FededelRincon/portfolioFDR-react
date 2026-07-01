@@ -30,7 +30,7 @@ en el **orden de ejecución recomendado**.
 | 04 | Quitar formulario de contacto | `04-quitar-formulario-contacto.md` | ✅ Hecho |
 | 05 | Tecnologías con íconos | `05-tecnologias.md` | ✅ Hecho |
 | 06 | Curar proyectos | `06-proyectos.md` | ✅ Hecho |
-| 07 | i18n bilingüe (ES/EN) | `07-i18n-bilingue.md` | ⬜ Pendiente |
+| 07 | i18n bilingüe (ES/EN) | `07-i18n-bilingue.md` | ✅ Hecho |
 | 08 | Reescribir About | `08-about-textos.md` | ⬜ Pendiente |
 | 09 | Animaciones (framer-motion) | `09-animaciones-wow.md` | ⬜ Pendiente |
 | 10 | SEO / meta / responsive | `10-seo-meta-responsive.md` | ⬜ Pendiente |

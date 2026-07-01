@@ -1,7 +1,10 @@
 import React from "react";
 import "./Navbar.css";
+import { useLang } from "../../context/LanguageContext";
 
 const Navbar = ({ isScrolling }) => {
+    const { lang, setLang } = useLang();
+
     const toTheTop = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
@@ -14,17 +17,30 @@ const Navbar = ({ isScrolling }) => {
                 </div>
 
                 <div className="navbar-right">
+                    <div className="lang-toggle" role="group" aria-label="Idioma / Language">
+                        <button
+                            type="button"
+                            className={`lang-btn ${lang === "es" ? "lang-active" : ""}`}
+                            onClick={() => setLang("es")}
+                            aria-pressed={lang === "es"}
+                        >
+                            ES
+                        </button>
+                        <button
+                            type="button"
+                            className={`lang-btn ${lang === "en" ? "lang-active" : ""}`}
+                            onClick={() => setLang("en")}
+                            aria-pressed={lang === "en"}
+                        >
+                            EN
+                        </button>
+                    </div>
+
                     <a href="https://www.linkedin.com/in/federico-del-rincon/" target="_blank" rel="noreferrer">
                         <i className="fab fa-linkedin linkedin boton-navbar"></i>
                     </a>
                     <a href="https://github.com/FededelRincon" target="_blank" rel="noreferrer">
                         <i className="fab fa-github github boton-navbar"></i>
-                    </a>
-                    <a href="https://www.instagram.com/fede_dr21/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-instagram instagram boton-navbar"></i>
-                    </a>
-                    <a href="https://www.facebook.com/federico.delrincon/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-facebook facebook boton-navbar"></i>
                     </a>
                 </div>
             </div>

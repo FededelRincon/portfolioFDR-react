@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Suspense, lazy } from "react";
 import "./App.css";
+import { LanguageProvider } from "./context/LanguageContext";
 import { CarouselComponent } from "./components/carousel/CarouselComponent";
 import { Loading } from "./components/loading/Loading";
 
@@ -27,25 +28,27 @@ function App() {
     }, [scrollHeight]);
 
     return (
-        <div className="App">
-            <div>
-                <Suspense fallback={ <Loading /> }>
+        <LanguageProvider>
+            <div className="App">
+                <div>
+                    <Suspense fallback={ <Loading /> }>
 
-                    <Navbar isScrolling={scrollHeight} />
+                        <Navbar isScrolling={scrollHeight} />
 
-                    <Cover />
+                        <Cover />
 
-                    <About />
+                        <About />
 
-                    <CarouselComponent/>
+                        <CarouselComponent/>
 
-                    <Info />
+                        <Info />
 
-                    <Footer />
+                        <Footer />
 
-                </Suspense>
+                    </Suspense>
+                </div>
             </div>
-        </div>
+        </LanguageProvider>
     );
 }
 

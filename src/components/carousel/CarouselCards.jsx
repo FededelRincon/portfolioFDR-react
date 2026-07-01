@@ -1,5 +1,6 @@
 import React from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
+import { useLang } from "../../context/LanguageContext";
 
 const cardVariants = {
     hidden: { opacity: 0, y: 40 },
@@ -14,6 +15,8 @@ const cardVariants = {
 const TILT = 10;
 
 export const CarouselCards = ({ slide }) => {
+    const { lang, t } = useLang();
+
     // Posición del mouse dentro de la card (0..1)
     const mouseX = useMotionValue(0.5);
     const mouseY = useMotionValue(0.5);
@@ -55,7 +58,9 @@ export const CarouselCards = ({ slide }) => {
 
             <div className="project-body">
                 <h3 className="slide-titulo">{slide.titulo}</h3>
-                <div className="slide-desc">{slide.desc}</div>
+                <div className="slide-desc">
+                    {typeof slide.desc === "string" ? slide.desc : slide.desc[lang]}
+                </div>
                 <div className="slide-tecnologies">{slide.tecnologies}</div>
 
                 <div className="slide-buttons-link">
@@ -67,7 +72,7 @@ export const CarouselCards = ({ slide }) => {
                             aria-label={`Ver demo de ${slide.titulo}`}
                         >
                             <i className="far fa-eye slide-boton-card"></i>
-                            <span>Demo</span>
+                            <span>{t.projects.demo}</span>
                         </a>
                     )}
 
@@ -79,7 +84,7 @@ export const CarouselCards = ({ slide }) => {
                             aria-label={`Ver código de ${slide.titulo} en GitHub`}
                         >
                             <i className="fab fa-github slide-boton-card"></i>
-                            <span>Código</span>
+                            <span>{t.projects.code}</span>
                         </a>
                     )}
                 </div>

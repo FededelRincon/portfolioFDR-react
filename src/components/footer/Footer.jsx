@@ -1,18 +1,16 @@
 import React from "react";
 import "./Footer.css";
+import { useLang } from "../../context/LanguageContext";
 
 const Footer = () => {
+    const { t } = useLang();
+
     return (
         <footer className="footer" id="contact">
 
-            <h3 className='footer-title'>{`< Contact >`}</h3>
+            <h3 className='footer-title'>{t.footer.title}</h3>
                 <div className="footer-contact">
-                    <p className="form-text">
-                        Whether you are interested in starting a project together, looking
-                        for a developer to join your team, want to know more about me or
-                        simply want to connect - let's talk. Reach out through LinkedIn or
-                        GitHub:
-                    </p>
+                    <p className="form-text">{t.footer.text}</p>
 
                     <div className="social-links">
                         <a
@@ -36,7 +34,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-            <div className="design-by">Design by FDR</div>
+            <div className="design-by">{t.footer.design}</div>
         </footer>
     );
 };

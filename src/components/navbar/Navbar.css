@@ -43,30 +43,52 @@
   color: #949495;
   cursor: pointer;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+}
+
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #949495;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: #949495;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+.lang-btn:hover {
+  color: whitesmoke;
+}
+
+.lang-btn.lang-active {
+  background-color: #22aed4;
+  color: #031226;
 }
 
 
 .linkedin,
-.twitter,
-.facebook,
-.instagram,
 .github {
   color: #949495;
-  /* color: white; */
   font-size: 35px;
   margin: 0 auto;
   padding-bottom: 10px;
   border-bottom: 4px solid transparent;
-  
 }
 
 .linkedin:hover,
-.twitter:hover,
-.facebook:hover,
-.instagram:hover,
 .github:hover {
-  /* border-color: white; */
   border-color: #949495;
   transition: all 0.3s ease-out;
 }
