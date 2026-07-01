@@ -24,7 +24,7 @@ en el **orden de ejecución recomendado**.
 
 | # | Etapa | Archivo | Estado |
 |---|-------|---------|--------|
-| 01 | Migración a Vite (+ React 19) | `01-migracion-vite.md` | ⬜ Pendiente |
+| 01 | Migración a Vite (+ React 19) | `01-migracion-vite.md` | ✅ Hecho (rama `migracion-vite`) |
 | 02 | Reconciliación CSS post-Vite | `02-css-reconciliacion-vite.md` | ⬜ Pendiente |
 | 03 | Limpieza CSS y assets | `03-limpieza-css-assets.md` | ⬜ Pendiente |
 | 04 | Quitar formulario de contacto | `04-quitar-formulario-contacto.md` | ⬜ Pendiente |
