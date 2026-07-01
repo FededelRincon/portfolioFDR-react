@@ -6,11 +6,13 @@ const About = () => {
   const { t } = useLang();
 
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="about-desc">
         <h3>{t.about.title}</h3>
         <p>{t.about.whoami}</p>
-        <p>{t.about.bio}</p>
+        {t.about.bio.map((par, i) => (
+          <p key={i}>{par}</p>
+        ))}
       </div>
       <div className="about-img">
         <img

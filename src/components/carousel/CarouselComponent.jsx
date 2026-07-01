@@ -20,7 +20,7 @@ export const CarouselComponent = () => {
     const { t } = useLang();
 
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <h3 className="Carousel-title">{t.projects.title}</h3>
 
             <motion.div

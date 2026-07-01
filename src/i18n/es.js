@@ -1,11 +1,24 @@
 export const es = {
+  nav: {
+    about: "Sobre mí",
+    projects: "Proyectos",
+    tech: "Tecnologías",
+    contact: "Contacto",
+  },
   cover: {
     job: "Desarrollador Full Stack",
+    viewProjects: "Ver proyectos",
+    contact: "Contactame",
   },
   about: {
     title: "< Sobre mí >",
     whoami: "¿Quién soy?...",
-    bio: "Soy Fede, Desarrollador Full Stack Semi-Senior con más de 3 años construyendo aplicaciones web escalables y performantes, con foco en React, Next.js y TypeScript. Creé odonto.ar, un SaaS dental multi-tenant de 17 módulos que desarrollé solo de punta a punta. En mi trabajo escalé una plataforma de e-commerce de 2 a ~30 clientes, integré pagos y logística y reduje los tiempos de carga con caching. Uso un flujo de desarrollo asistido por IA (Claude Code, Cursor, Codex) con enfoque plan-first, y disfruto de convertir necesidades difusas en features que se envían, cuidando el UX y el detalle. Comparto lo que aprendo dando charlas técnicas en la comunidad (BeerJS). Fuera de la pantalla: viajar y tocar la guitarra. Argentino, de Córdoba, siempre abierto a nuevos desafíos.",
+    bio: [
+      "Soy Fede, Desarrollador Full Stack Semi-Senior con más de 3 años construyendo aplicaciones web escalables y performantes, con foco en React, Next.js y TypeScript.",
+      "Creé odonto.ar, un SaaS dental multi-tenant de 17 módulos que desarrollé solo de punta a punta. En mi trabajo escalé una plataforma de e-commerce de 2 a ~30 clientes, integré pagos y logística y reduje los tiempos de carga con caching.",
+      "Uso un flujo de desarrollo asistido por IA (Claude Code, Cursor, Codex) con enfoque plan-first, y disfruto de convertir necesidades difusas en features que se envían, cuidando el UX y el detalle. Comparto lo que aprendo dando charlas técnicas en la comunidad (BeerJS).",
+      "Fuera de la pantalla: viajar y tocar la guitarra. Argentino, de Córdoba, siempre abierto a nuevos desafíos.",
+    ],
     location: "Córdoba, Argentina",
     downloadCv: "Descargar CV",
     contact: "Contactame",

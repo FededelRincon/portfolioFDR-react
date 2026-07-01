@@ -3,17 +3,37 @@ import "./Navbar.css";
 import { useLang } from "../../context/LanguageContext";
 
 const Navbar = ({ isScrolling }) => {
-    const { lang, setLang } = useLang();
+    const { lang, setLang, t } = useLang();
 
     const toTheTop = () => {
         window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
     };
+
+    const scrollTo = (id) =>
+        document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
     return (
         <nav className={`navbar ${isScrolling > 20 ? "scrolling" : null}`}>
             <div className="navbar-flex">
                 <div className={`navbar-left ${isScrolling > 20 ? 'show' : 'notShow'}`} onClick={toTheTop}>
                     Federico del Rincon
+                </div>
+
+                <div className="navbar-center">
+                    <div className="navbar-links">
+                        <button type="button" className="navbar-link" onClick={() => scrollTo("about")}>
+                            {t.nav.about}
+                        </button>
+                        <button type="button" className="navbar-link" onClick={() => scrollTo("projects")}>
+                            {t.nav.projects}
+                        </button>
+                        <button type="button" className="navbar-link" onClick={() => scrollTo("tech")}>
+                            {t.nav.tech}
+                        </button>
+                        <button type="button" className="navbar-link" onClick={() => scrollTo("contact")}>
+                            {t.nav.contact}
+                        </button>
+                    </div>
                 </div>
 
                 <div className="navbar-right">
@@ -35,13 +55,6 @@ const Navbar = ({ isScrolling }) => {
                             EN
                         </button>
                     </div>
-
-                    <a href="https://www.linkedin.com/in/federico-del-rincon/" target="_blank" rel="noreferrer">
-                        <i className="fab fa-linkedin linkedin boton-navbar"></i>
-                    </a>
-                    <a href="https://github.com/FededelRincon" target="_blank" rel="noreferrer">
-                        <i className="fab fa-github github boton-navbar"></i>
-                    </a>
                 </div>
             </div>
         </nav>

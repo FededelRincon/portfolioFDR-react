@@ -1,11 +1,24 @@
 export const en = {
+  nav: {
+    about: "About",
+    projects: "Projects",
+    tech: "Technologies",
+    contact: "Contact",
+  },
   cover: {
     job: "Full Stack Developer",
+    viewProjects: "View projects",
+    contact: "Contact me",
   },
   about: {
     title: "< About Me >",
     whoami: "Who am I?...",
-    bio: "I'm Fede, a Semi-Senior Full Stack Developer with 3+ years building scalable, high-performance web apps, focused on React, Next.js and TypeScript. I created odonto.ar, a 17-module multi-tenant dental SaaS that I built entirely on my own. At work I scaled an e-commerce platform from 2 to ~30 clients, integrated payments and logistics, and cut load times with caching. I work with an AI-assisted, plan-first workflow (Claude Code, Cursor, Codex), and I enjoy turning vague requirements into features that ship, caring about UX and the details. I also share what I learn giving technical talks in the community (BeerJS). Off-screen: traveling and playing the guitar. From Córdoba, Argentina — always open to new challenges.",
+    bio: [
+      "I'm Fede, a Semi-Senior Full Stack Developer with 3+ years building scalable, high-performance web apps, focused on React, Next.js and TypeScript.",
+      "I created odonto.ar, a 17-module multi-tenant dental SaaS that I built entirely on my own. At work I scaled an e-commerce platform from 2 to ~30 clients, integrated payments and logistics, and cut load times with caching.",
+      "I work with an AI-assisted, plan-first workflow (Claude Code, Cursor, Codex), and I enjoy turning vague requirements into features that ship, caring about UX and the details. I also share what I learn giving technical talks in the community (BeerJS).",
+      "Off-screen: traveling and playing the guitar. From Córdoba, Argentina — always open to new challenges.",
+    ],
     location: "Córdoba, Argentina",
     downloadCv: "Download resume",
     contact: "Contact Me",

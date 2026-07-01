@@ -10,7 +10,7 @@ const Info = () => {
     const visible = technologies.filter((cat) => cat.items.length > 0);
 
     return (
-        <div className="main-container">
+        <div className="main-container" id="tech">
             <h3 className="info-title">{t.tech.title}</h3>
 
             <div className="tech-container">
