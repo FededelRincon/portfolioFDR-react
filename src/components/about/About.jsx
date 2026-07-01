@@ -47,7 +47,11 @@ const About = () => {
           />
 
           <input
-            onClick={() => window.scroll({ top: 5000, behavior: "smooth" })}
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
             className="button-about"
             type="submit"
             value="Contact Me"

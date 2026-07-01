@@ -3,39 +3,38 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            
+        <footer className="footer" id="contact">
+
             <h3 className='footer-title'>{`< Contact >`}</h3>
                 <div className="footer-contact">
-                    <div className="footer-form">
-                        <p className="form-text">
-                            Whether you are interested in starting a project together, looking
-                            for a junior developer to join your team, need a website, want to
-                            know more about me or simply want to connect - feel free to reach
-                            out via email
-                            <a href="mailto:delrincon@gmail.com" className="email-color"> delrincon@gmail.com </a>
-                            or here directly:
-                        </p>
-                        <form action="https://formsubmit.co/e3965af50f27da9c17c16785397a2033" method="POST">
-                            <div>
-                                <input className="field" type="text" placeholder="Name" name="fullName" required />
-                            </div>
-                            <div>
-                                <input className="field" type="email" placeholder="Email" name="email" required />
-                            </div>
-                            <div>
-                                <input className="field" type="subject" placeholder="Subject" name="subject" required />
-                            </div>
-                            <div>
-                                <textarea className="field" cols="20" rows="5" placeholder="Your message..." name="description"></textarea>
-                            </div>
-                            <div >
-                                <input className="button" type="submit" value="Send Message" />
+                    <p className="form-text">
+                        Whether you are interested in starting a project together, looking
+                        for a developer to join your team, want to know more about me or
+                        simply want to connect - let's talk. Reach out through LinkedIn or
+                        GitHub:
+                    </p>
 
-                            </div>
-                        </form>
+                    <div className="social-links">
+                        <a
+                            href="https://www.linkedin.com/in/federico-del-rincon/"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="LinkedIn"
+                        >
+                            <i className="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a
+                            href="https://github.com/FededelRincon"
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="GitHub"
+                        >
+                            <i className="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
                     </div>
-
                 </div>
             <div className="design-by">Design by FDR</div>
         </footer>
