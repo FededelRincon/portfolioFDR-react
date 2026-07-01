@@ -8,7 +8,7 @@ const Cover = () => {
 	return (
 		<div className="cover-container">
 			
-			<video className="video" src={coverVideo} autoPlay loop muted />
+			<video className="video" src={coverVideo} autoPlay loop muted playsInline preload="auto" />
 			
 			<h1 className="animate__animated animate__bounceInLeft" >Federico del Rincon</h1>
 			<p className="job">Full Stack Developer</p>

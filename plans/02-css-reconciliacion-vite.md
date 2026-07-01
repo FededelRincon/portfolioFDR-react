@@ -1,5 +1,12 @@
 # Etapa 02 — Reconciliación de CSS post-Vite
 
+> ✅ **VERIFICADO: no hizo falta.** Tras migrar (etapa 01) el CSS quedó bien porque
+> `App.css` ya tenía su propio reset global (`* { margin:0; padding:0;
+> box-sizing:border-box }`), no hay prefijos de vendor ni `@import-normalize`, y no
+> se usa ninguna propiedad que hoy requiera autoprefixer. La migración no tocó
+> ningún `.css`. Se saltó sin agregar autoprefixer. Lo de abajo queda como
+> referencia histórica.
+
 **Objetivo:** resolver el CSS que "se rompe" al migrar de CRA a Vite. Fede ya
 intentó esta migración antes y parte del CSS se rompía / quedaba "encapsulado".
 
