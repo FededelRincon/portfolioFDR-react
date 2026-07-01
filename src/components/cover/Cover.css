@@ -76,8 +76,7 @@
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  /* ancho y cantidad de pasos adaptativos al texto (cambia por idioma) */
-  width: var(--job-width, 17ch);
+  /* el ancho se mide en px por JS (inline) para que el caret quede pegado */
 
   animation: typing 4s steps(var(--job-steps, 20)),
   blink .6s infinite step-end alternate;
@@ -115,7 +114,6 @@
   .cover-container > p {
     text-align: center;
     font-size: 22px;
-    width: 85%;
   }
 
   .cover-btn {

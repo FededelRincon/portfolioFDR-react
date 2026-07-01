@@ -6,7 +6,7 @@ export const es = {
     contact: "Contacto",
   },
   cover: {
-    job: "Desarrollador Full Stack",
+    job: "Desarrollador Full Stack...",
     viewProjects: "Ver proyectos",
     contact: "Contactame",
   },

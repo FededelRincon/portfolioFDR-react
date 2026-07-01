@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState, useLayoutEffect } from "react";
 import coverVideo from "../../media/particles-wave-motion-on-black.mp4";
 import { useLang } from "../../context/LanguageContext";
 
@@ -9,6 +9,17 @@ const Cover = () => {
 	const { t } = useLang();
 
 	const jobLength = t.cover.job.length;
+
+	const jobRef = useRef(null);
+	const [jobWidth, setJobWidth] = useState(null);
+
+	// Mide el ancho real del texto (px) para que el caret quede pegado,
+	// sin depender de la unidad `ch` (Roboto no es monoespaciada).
+	useLayoutEffect(() => {
+		if (jobRef.current) {
+			setJobWidth(jobRef.current.scrollWidth);
+		}
+	}, [t.cover.job]);
 
 	const scrollTo = (id) =>
 		document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -22,10 +33,11 @@ const Cover = () => {
 			<h1 className="animate__animated animate__bounceInLeft" >Federico del Rincon</h1>
 			<p
 				className="job"
+				ref={jobRef}
 				key={t.cover.job}
 				style={{
-					"--job-width": `${jobLength}ch`,
 					"--job-steps": jobLength,
+					...(jobWidth != null ? { width: `${jobWidth}px` } : {}),
 				}}
 			>
 				{t.cover.job}
