@@ -1,96 +1,148 @@
-/* https://github.com/leandrowd/react-responsive-carousel */
+.projects {
+    background: linear-gradient(to bottom, #0c567e 0%, #031226 50%, #0c567e 100%);
+    padding: 10px 0 60px 0;
+}
 
 .Carousel-title {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: whitesmoke;
     text-align: center;
-    background: linear-gradient(to bottom, #0C567E 20%, #031226b7 42%, #0C567E 90%);
+    background: linear-gradient(to bottom, #0c567e 20%, #031226b7 42%, #0c567e 90%);
 }
 
-.carousel{
-    background-color: #0C567E;
-    padding-top: 10px;
-}   
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
 
-.carousel-root{
-    background: #0C567E;
-    background: linear-gradient(to bottom, #0C567E 10%, #031226b7 42%, #0C567E 80%);
-
+.project-card {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to bottom, #031226, #0c567e);
+    border: 2px solid #22aed4;
+    border-radius: 14px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.project-image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease-out;
+}
+
+.project-card:hover .project-image img {
+    transform: scale(1.08);
+}
+
+.project-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 20px 22px;
+    flex-grow: 1;
+}
+
+.slide-titulo {
+    font-size: 26px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 8px;
+    /* alto reservado para 1-2 líneas (evita saltos entre cards) */
+    min-height: 2em;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card-container {
-    border: solid white 3px;
-    border-radius: 10px;
-    overflow: hidden;
-    min-height: 380px;
-
-
-    background: #031226;
-    background: linear-gradient(to right, #031226 0%, #0C567E 30%, #0C567E 80%, #031226 100%);
-}
-
-.slide {
-    /* max-width: es por medio del componente */
-    /* max-width: 400px; */
-    max-height: 400px;
-}
-
-.carousel .thumbs {
-    text-align: center;
-}
-
-.thumb {
-    /* background-color: tomato; */
-    border-radius: 5px;
-}
-
-.carousel-status {
-    display: none;
-}
-
-
-.slide-titulo{
-    font-size: 30px;
-    padding: 20px 0 10px 0px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.slide-desc{
-    font-size: 18px;
-    color: whitesmoke;
-    text-align: center;
-}
-
-.slide-tecnologies{
+.slide-desc {
     font-size: 16px;
-    padding: 5px 0 5px 0;
+    line-height: 1.5;
+    color: whitesmoke;
+    text-align: center;
+    /* reserva ~3 líneas y recorta con elegancia si se pasa */
+    min-height: calc(3 * 1.5em);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.slide-tecnologies {
+    font-size: 14px;
     color: #8cd8ec;
     text-align: center;
+    padding: 10px 0;
 }
 
-/* butons */
 .slide-buttons-link {
-    padding: 15px 0 0 0;
     display: flex;
-    justify-content: space-around;
+    gap: 16px;
+    margin-top: auto;
+    padding-top: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.slide-boton-card{
-    font-size: 35px;
-    transition: all 0.5s ease;
+.slide-buttons-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 18px;
+    border: 2px solid #22aed4;
+    border-radius: 999px;
+    color: #8cd8ec;
+    font-size: 15px;
+    font-weight: 500;
     text-decoration: none;
-    color: #8cd8ec
-  }
-  
-  .slide-boton-card:hover {
+    transition: all 0.3s ease;
+}
+
+.slide-buttons-link a:hover {
+    background-color: #22aed4;
     color: #031226;
     cursor: pointer;
-    transition: all 0.5s ease;
-  
-  }
+    transform: translateY(-3px);
+}
+
+.slide-boton-card {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 960px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+
+    .Carousel-title {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        max-width: 380px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-image img {
+        transition: none;
+    }
+}
