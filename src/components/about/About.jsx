@@ -15,7 +15,7 @@ const About = () => {
       <div className="about-img">
         <img
           className="img-circular"
-          src="https://res.cloudinary.com/dqh7edrn7/image/upload/v1652927127/Portfolio/Yo_BN_omkcml.jpg"
+          src="https://res.cloudinary.com/dqh7edrn7/image/upload/v1782941648/yo-charla_gkac1i.png"
           alt="Federico del Rincón"
         />
 

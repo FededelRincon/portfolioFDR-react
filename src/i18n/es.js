@@ -5,7 +5,7 @@ export const es = {
   about: {
     title: "< Sobre mí >",
     whoami: "¿Quién soy?...",
-    bio: "Soy Fede, un curioso apasionado por explorar. Viajar y tocar la guitarra son mis amores, pero también disfruto de leer, de una buena porción de pizza y de aprender cosas nuevas. Nací en Argentina, estudié 4 años en Famaf y trabajé en el rubro inmobiliario. La pandemia me hizo replantear mi camino profesional: haciendo cursos de programación online descubrí mi verdadera pasión y decidí dedicarme a programar de forma autodidacta. Desde entonces trabajé con lenguajes como Python, HTML, CSS, JS y TS, y frameworks como React, Angular, Express y Mongo. Siempre abierto a nuevos desafíos, busco crecer como programador y acompañar un mundo tech en constante evolución.",
+    bio: "Soy Fede, Desarrollador Full Stack Semi-Senior con más de 3 años construyendo aplicaciones web escalables y performantes, con foco en React, Next.js y TypeScript. Creé odonto.ar, un SaaS dental multi-tenant de 17 módulos que desarrollé solo de punta a punta. En mi trabajo escalé una plataforma de e-commerce de 2 a ~30 clientes, integré pagos y logística y reduje los tiempos de carga con caching. Uso un flujo de desarrollo asistido por IA (Claude Code, Cursor, Codex) con enfoque plan-first, y disfruto de convertir necesidades difusas en features que se envían, cuidando el UX y el detalle. Comparto lo que aprendo dando charlas técnicas en la comunidad (BeerJS). Fuera de la pantalla: viajar y tocar la guitarra. Argentino, de Córdoba, siempre abierto a nuevos desafíos.",
     location: "Córdoba, Argentina",
     downloadCv: "Descargar CV",
     contact: "Contactame",
