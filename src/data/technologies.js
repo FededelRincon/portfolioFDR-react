@@ -43,8 +43,9 @@ import {
   SiClaude,
 } from "react-icons/si";
 
-import { FaCss3, FaHtml5, FaPython } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaPython, FaAws } from "react-icons/fa";
 import { LuCodeXml } from "react-icons/lu";
+import { SiFirebase, SiPostgresql, SiMongodb } from "react-icons/si";
 
 export const technologies = [
   {
@@ -94,14 +95,15 @@ export const technologies = [
       { name: "Cursor", Icon: SiCursor, color: "#FFFFFF" },
       { name: "Claude", Icon: SiClaude, color: "#DE7356" },
       { name: "Codex", Icon: LuCodeXml, color: "#F18D1C" },
-      // { name: "Strapi", Icon: SiStrapi, color: "#4945FF" },
-      // Photoshop y Workbox no tienen logo en Simple Icons -> se muestran sin ícono
-      // { name: "Photoshop" },
-      // { name: "Workbox" },
     ],
   },
-  // {
-  //   category: "Others",
-  //   items: [{ name: "Strapi", Icon: SiStrapi, color: "#4945FF" }],
-  // },
+  {
+    category: "Databases",
+    items: [
+      { name: "AWS", Icon: FaAws, color: "#FF9900" },
+      { name: "PostgreSQL", Icon: SiPostgresql, color: "#4169E1" },
+      { name: "Mongo", Icon: SiMongodb, color: "#47A248" },
+      { name: "Firebase", Icon: SiFirebase, color: "#FFCA28" },
+    ],
+  },
 ];
